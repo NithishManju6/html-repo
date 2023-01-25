@@ -1,0 +1,29 @@
+.h2div .h2error0{
+    font-weight: 700;
+    font-size: 160px;
+    color: #24CCD4;
+    text-align: center;
+}
+.error1{
+    background-image: url('../images/aboutus_page_images/vision_circle.png');
+    background-position-x:center;
+    background-position-y:23%;
+    background-repeat: no-repeat;
+    padding: 85px 0px 0 0; 
+    margin-bottom: 150px;
+}
+.h2div .h3error0{
+    font-weight: 700;
+    font-size: 40px;
+    color: #24CCD4;
+    text-align: center;
+}
+.h2div .p1error{
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+body{
+    font-family: 'Poppins';
+    background-color: #E6FFFC;
+}
+.navbar{
+    background-color: #7A5C8D;
+    padding: 0 0 0 0;
+}
+.brand1{
+    background-color: #6F5480;
+    height: 40px;
+}
+.bollyshape{
+    display: block;
+    margin: auto;
+}
+.numbers .h3Numbers{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.numbers{
+    color: #FFFFFF;
+}
+.numbers .h3Numbers:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+.navbar-collapse .purple1{
+       background-color: #7A5C8D;
+       color: #FFFFFF;
+       border-radius: 25px;
+       padding: 12px 30px 12px 30px;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 25px 0 25px;
+    color: #000000;
+}
+.purple1{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #7A5C8D;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    font-weight: bold;
+}
+.navbar-collapse .purple1:focus{
+    color: #7A5C8D;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+.b1{
+    background-color:transparent;
+    margin-right: 20px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122,92,141)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border:2px solid #7A5C8D;
+    border-radius: 5px;
+}
+.navbar-collapse .navbar-nav .nav-item{
+     text-align: center;
+     font-size: 18px;
+} 
+footer{
+    background-color: #7A5C8D;
+    padding: 50px 0 50px 0;
+}
+.foot2{
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+.foot1 .image1foot1{
+    display: block;
+    margin: 0 auto 46px auto;
+}
+.divfoot2h5{
+    display: flex;
+}
+.foot2 .divfoot2h4 .foot2h4{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 20px 0 0; 
+}
+.phone-call{
+    align-self: start;
+    padding: 0 30px 0 20px;
+}
+.foot2 .divfoot2h5 .foot2h5{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 20px 0 20px; 
+}
+.foot2 .divfoot2h6 .foot2h6{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 20px 0 20px; 
+}
+.foot3{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.foot3 .foot3a1{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.foot3 .spanlineP1{
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0 25px 0 25px;
+}
+
+.foot2_M .divfoot2h4 .foot2h4_M{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 20px 0 0; 
+    text-align: center;
+}
+.phone-call_M{
+    align-self: start;
+    padding: 0 0px 0 0px;
+}
+.foot2_M .divfoot2h5{
+    margin: 15px 0 15px 0;
+}
+.foot2_M .divfoot2h5 .foot2h5_M{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 0px 0 20px; 
+}
+.foot2_M .divfoot2h6 .foot2h6_M{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 20px 0 0px; 
+    text-align: center;
+}
+.foot2_M{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.foot3_M .foot3a1{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.foot3_M .foot3a1:hover{
+    color: #000000;
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: #000000;
+}
+.foot3_M .foot3a1:focus{
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #000000;
+    outline:1px solid  #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+.foot3_M{
+    text-align: center;
+    margin-top: 30px;
+}
+.foot3_M .divfoot3a1{
+    margin: 0 0 25px 0;
+}
+.foot2_M{
+    margin-top: 30px;
+}
+.foot4 .i1{
+     padding:0 0 0 0;
+     margin: 0 15px 0 15px;
+}
+.foot4{
+    display: flex;
+    justify-content: center;
+}
+.foot5 .foot5a1{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 0 0 0;
+    margin: 0 15px 0 15px;
+}
+.foot5 .spanlineP1{
+    color: #FFFFFF;
+}
+.foot5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header2{
+    margin-top: 30px;
+}
