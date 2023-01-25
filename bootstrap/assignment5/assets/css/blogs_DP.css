@@ -1,0 +1,125 @@
+.full_image0P5{
+    width: 1240px;
+    height: 417px;
+    object-fit: fill;
+}
+.h4_P5{
+    color: #EAEAEA;
+    font-size: 29px;
+}
+.linedash_MP5{
+        height: 31px;
+        object-fit: cover;
+        object-position: left;
+        width:856px;
+}
+.linedash_mp50{
+        height: 31px;
+        object-fit: cover;
+        object-position: right;
+        width:856px;
+}
+.full_image0P5_M{
+    width: 368px;
+    height: 222px;
+    object-fit: fill;
+    display: block;
+    margin: auto;
+}
+
+.section1P5{
+    margin-bottom: 100px;
+}
+.divh6P5{
+    position: relative;
+    margin-left: 20px;
+}
+.h6P5{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size: 25px;
+    color: #EAEAEA;
+     top:5px;
+}
+.h6P5:hover{
+    color: #FFB533;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+.iconsP5{
+    position: relative;
+    margin-left: 30px;
+    top: 50px;
+}
+.diviconP50{
+   margin-bottom: 25px;
+   margin-top: 15px;
+} 
+.diviconP50_M{
+  padding: 0px 10px 0 10px ;
+  width: max-content;
+}
+.blogparaP5{
+    margin-bottom: 25px;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.h6blogP5{
+    color: #FFB533;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.h6sideP5{
+    color: #FFB533;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.h5blog{
+    font-size: 14px;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+.pblogB{
+    font-size: 12px;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+.img1P5{
+    width: 120px;
+    height: 100px;
+    object-fit: fill;
+    margin-right: 40px;
+}
+.f1_P5_img{
+    width: 820px;
+    height: 426px;
+    object-fit: fill;
+}
+.f10_P5_img{
+    width: max-content;
+    height: 222px;
+}
+.h6P5_M{
+    color: #FFB533;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+
+}
+.blog1_P5{
+    margin-bottom: 50px;
+}
+.iconsticky {
+    position:sticky;
+    bottom:0;
+    width: 100%;
+    background-color: #171613;
+    justify-content: space-between;
+} 
+.diviconP50_M{
+    padding: 10px 15px 10px 15px;   
+}
+.section2P5{
+    margin-top: 150px;
+}

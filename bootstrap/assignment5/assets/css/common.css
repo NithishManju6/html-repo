@@ -1,0 +1,144 @@
+ /* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+body{
+    font-family: 'Poppins';
+}  */
+/*---------------------------------------------------Body Starts-------------------------------------------------------*/
+body{
+    font-family: 'Squada One', cursive;  
+    background-color: #000;
+}
+/*---------------------------------------------------Body Ends---------------------------------------------------------*/
+/*-----------------------------------------------header css starts-----------------------------------------------------*/
+.dropdown-menu{
+    background: #212121D9;
+    text-align: left; 
+}
+  .dropdown-menu .menu{
+      color: #FFB533;
+}
+.dropdown-menu .menu:hover{
+    color: #EAEAEA;
+    background-color: #131210;
+}
+.dropdown-menu .menu:focus{
+    background-color: #cf9e33;
+    color: #EAEAEA;
+}
+
+.navmar{
+      padding: 14px 10px 14px 10px;
+}
+.navmar:hover{
+      text-decoration-color: #FFB533;
+      text-decoration: underline;
+      text-underline-offset: 0.3em; 
+}
+  
+.buttonyellow0{
+      border:1px solid #FFB533;
+      padding: 14px 30px 15px 30px;
+      background-color: #000;
+      font-size: 18px;
+      border-radius: 0;
+}
+.navbar-nav .line{
+     padding: 14px 10px 14px 10px;
+}
+.navbar-nav .line:hover{
+    text-decoration-color: #FFB533;
+    text-decoration: underline;
+    text-underline-offset: 0.3em; 
+}
+
+/*-----------------------------------------------header css ends-------------------------------------------------------*/
+
+
+/*-----------------------------------------------footer css starts-----------------------------------------------------*/
+.rdolor{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+}
+.r3dolor{
+    padding: 27px 27px 27px 27px;
+    background: #131210;
+    width: 620px;
+    height:auto;
+    justify-content: space-between;
+}
+.r3dolorh4{
+    color: #EAEAEA;
+}
+.buttonyellowr3{
+    border:1px solid #FFB533;
+    padding: 14px 30px 15px 30px;
+    background-color: #131210;
+    font-size: 18px;
+    width: max-content;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    margin-bottom: 74px;
+}
+.store1{
+    color: #FFB533;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 24px;
+}
+.style1{
+    list-style-type: none;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;  
+}
+.style2{
+    margin: 10px 0 10px;
+    font-size: 14px;
+}
+.iconsfooter{
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 59px;
+}
+.copyfooterp10{
+    text-align: center;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+.US1{
+    display: flex;
+}
+.para_footer{
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+   
+    
+}
+.h4india{
+     margin-left: 32px;
+     color: #FFB533;
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     padding-bottom: 24px;
+}
+.image_footers{
+    margin-right: 22px;
+    padding-bottom: 35px; 
+} 
+
+
+/*-----------------------------------------------footer css ends-------------------------------------------------------*/

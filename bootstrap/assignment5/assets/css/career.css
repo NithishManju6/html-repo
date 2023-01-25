@@ -1,0 +1,55 @@
+.headerP6{
+    margin-bottom: 50px;
+}
+.career_image0{
+    width: 1240px;
+    height: 426px;
+    object-fit: cover;
+}
+.benefits_P6{
+    margin-bottom: 90px;
+}
+.benefits_h5{
+    color:#FFB533;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.benefits_p{
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif; 
+}
+.first_column{
+    margin-bottom: 95px;
+}
+.section2P6{
+    margin-bottom: 100px;
+}
+.section3P6{
+    margin-bottom: 250px;
+}
+.second_groups{
+    background-color: #131210;
+    padding: 45px 0 45px 35px;
+    margin-bottom: 20px;
+}
+.second_group_h6{
+    color:#FFB533;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.benefits_pa{
+    color:#FFB533;
+    font-family: 'Roboto', sans-serif; 
+    margin-right: 10px;
+}
+.benefits_pa:hover{
+    color: #FFB533;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+.benefits_knowmore{
+    display: flex;
+    margin-top: 34px;
+}
+
