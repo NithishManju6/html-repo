@@ -1,0 +1,27 @@
+.h5category{
+    color: #FFB533;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+.categoryP4{
+    margin-bottom: 15px;
+}
+.blogs4{
+    width: max-content;
+    font-size: 110px;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(270deg)translateX(48%) translateY(33%);
+    top: -8px;
+    right: 0px;
+}
+.section1P4{
+    margin-bottom: 70px;
+}
+.section2P4{
+    margin-bottom: 70px;
+}
+.section3P4{
+    margin-bottom: 70px;
+}
