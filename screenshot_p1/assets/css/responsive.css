@@ -1,0 +1,48 @@
+@media  only screen and (max-width: 767px)
+{
+    .img1div2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(15, 0, 0, 0.555)),url(../images/dog1.jpeg);
+    background-repeat: no-repeat;
+    padding: 180px 20px 51px 30px;
+    height: 95.25%;
+    }
+    .headings0 .p1div{
+        width:100%;
+    }
+    .y0 {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .img1div2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(15, 0, 0, 0.555)),url(../images/dog1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 95.25%;
+        padding: 235px 20px 51px 30px;
+    }
+    .badges20s3 .w2{
+        margin: 0 0 100px 0;
+    }
+    .y0 {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .img1div2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(15, 0, 0, 0.555)),url(../images/dog1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 235px 20px 51px 30px;
+        height: 95.25%;
+    }
+    .p1e3s2 .e3img {
+        border-radius: 50%;
+        width: 25%;
+        margin-right: 20px;
+    }
+}
