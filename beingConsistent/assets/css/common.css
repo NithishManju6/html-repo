@@ -10,10 +10,6 @@ body{
     font-family: 'Poppins';
     background-color: #E6FFFC;
 }
-.navbar{
-    background-color: #7A5C8D;
-    padding: 0 0 0 0;
-}
 .brand1{
     background-color: #6F5480;
     height: 40px;
@@ -33,34 +29,33 @@ body{
     text-decoration: underline;
     text-underline-offset: 0.3em;
 }
-.navbar-collapse .purple1{
+.b1p1 .p1{
        background-color: #7A5C8D;
        color: #FFFFFF;
        border-radius: 25px;
+       font-size: 14px;
        padding: 12px 30px 12px 30px;
 }
-.navbar-nav .nav-item .nav-link{
-    padding: 0 25px 0 25px;
+.l1 .nav-item .nav-link{
+    padding: 0 0 0 0;
     color: #000000;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 25px 0 25px;
 }
-.purple1{
-    font-size: 14px;
-    color: #FFFFFF;
-}
-.navbar-nav .nav-item .nav-link:hover{
+.l1 .nav-item .nav-link:hover{
     color: #7A5C8D;
     text-decoration: underline;
     text-underline-offset: 0.3em;
     font-weight: bold;
 }
-.navbar-collapse .purple1:focus{
+.b1p1 .p1:focus{
     color: #7A5C8D;
     background-color: #FFFFFF;
     font-weight: bold;
 }
 .b1{
     background-color:transparent;
-    margin-right: 20px;
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122,92,141)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -69,10 +64,6 @@ body{
     border:2px solid #7A5C8D;
     border-radius: 5px;
 }
-.navbar-collapse .navbar-nav .nav-item{
-     text-align: center;
-     font-size: 18px;
-} 
 footer{
     background-color: #7A5C8D;
     padding: 50px 0 50px 0;

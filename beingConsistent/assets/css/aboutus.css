@@ -77,10 +77,8 @@ margin-bottom: 250px;
 }
 .blogs0P2 {
     background-color: #F2F2F2;
-    transform: translateY(66%);
-    padding: 30px 0 25px 0;
-    border-radius: 0 0 82px 82px;
-    height: 400px;
+    padding: 0px 0 75px 0;
+    border-radius: 30px 30px 82px 82px;
 }
 .team1P2 .h3teamP2{
     font-weight: 700;
@@ -103,7 +101,7 @@ margin-bottom: 250px;
 }
 .backteam2{
     background-color: #F8F8F8;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     padding: 20px 0 0 0;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     
@@ -141,13 +139,10 @@ margin-bottom: 250px;
     border-radius: 50%;
 }
 .section6P2{
-    margin-top: 160px;
-    margin-bottom: 400px;
-}
-.first_rowP2{
-    transform: translateY(-52%);
-}
-.section7P2{
-    margin-top: 200px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
+.section7P2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
