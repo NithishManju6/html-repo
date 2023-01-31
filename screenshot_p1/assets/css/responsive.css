@@ -14,7 +14,21 @@
         display: block;
         margin: auto;
     }
+    .img1div .theAI{
+        color: #FFFFFF;
+        font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .n0 .nav-item .n1{
+        margin: 15px 0 15px 0;
+    }
 }
+/*-------------------------------------mobile view ends----------------------------------------------------*/
+/* ------------------------------------tablets view starts------------------------------------------------ */
 @media (min-width: 768px) and (max-width: 991px){
     .img1div2 {
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(15, 0, 0, 0.555)),url(../images/dog1.jpeg);
@@ -31,7 +45,29 @@
         display: block;
         margin: auto;
     }
+    .aie3div .aie3{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .img1div .theAI{
+        color: #FFFFFF;
+        font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .n0 .nav-item .n1{
+        margin: 15px 0 15px 0;
+    }
+    
 }
+/* ------------------------------------tablets view ends------------------------------------------------ */
+/* ------------------------------------laptop view starts------------------------------------------------ */
 @media (min-width: 992px) and (max-width: 1024px){
     .img1div2 {
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(15, 0, 0, 0.555)),url(../images/dog1.jpeg);
@@ -45,4 +81,15 @@
         width: 25%;
         margin-right: 20px;
     }
+    .aie3div .aie3{
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
 }
+/* ------------------------------------laptop view ends------------------------------------------------ */

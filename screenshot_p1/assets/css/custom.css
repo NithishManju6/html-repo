@@ -9,6 +9,11 @@
 .img1div .theAI{
     color: #FFFFFF;
     font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 .img1div .p1AI{
     color: #c74720;
@@ -54,9 +59,11 @@
     color: #000000;
     font-size: 20px;
     font-weight: 600;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .p1e3s2 .e3img{
     border-radius: 50%;
@@ -78,7 +85,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 7; /* number of lines to show */
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
 }
 .e1op{

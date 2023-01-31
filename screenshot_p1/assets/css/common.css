@@ -10,12 +10,19 @@ body{
     font-family: 'Poppins';
     background-color: #FFFFFF;
 }
-.nav-item .n1{
+.custom-toggler{
+    border: 2px solid rgb(92, 40, 5);
+}
+.custom-toggler .tog1 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 102, 0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.n0 .nav-item .n1{
     font-size: 16px;
-    font-weight: 1000;
+    font-weight: bold;
     padding: 0 0 0 0;
     color: #000000;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
+    text-align: center;
 }
 .navbar-brand{
     font-size: 30px;
@@ -23,7 +30,7 @@ body{
     padding: 0 0 0 0;
     color: #000000;
 }
-.nav-item .n1:hover{
+.n0 .nav-item .n1:hover{
     color: #ff5e00d3;
     text-decoration: underline;
     text-decoration-color: #000000;
