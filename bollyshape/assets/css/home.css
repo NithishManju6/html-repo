@@ -136,7 +136,9 @@
 
 .circle1P1 .circle1 {
     position: absolute;
-    z-index: 9;
+    z-index: 1;
+    left: 47%;
+    top: 10%;
 }
 
 .pad-1 {

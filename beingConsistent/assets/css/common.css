@@ -79,7 +79,7 @@ h6 {
     box-shadow: none;
 }
 
-.l1 .nav-link {
+.l1 a {
     padding: 0 0 0 0;
     color: #000000;
     text-align: center;
@@ -87,7 +87,7 @@ h6 {
     margin: 0 25px 0 25px;
 }
 
-.l1 .nav-link:hover {
+.l1 a:hover {
     color: #7A5C8D;
     text-decoration: underline;
     text-underline-offset: 0.3em;

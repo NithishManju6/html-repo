@@ -88,6 +88,13 @@
         padding: 0 15px 0 15px;
         margin: 25px 0 0 0;
     }
+
+    .circle1P1 .circle1 {
+        position: absolute;
+        z-index: 1;
+        left: 75%;
+        top: -8%;
+    }
 }
 
 /* ------------------------------------------------Mobile View ends----------------------------------------------- */
@@ -151,6 +158,13 @@
         overflow: hidden;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 10;
+    }
+
+    .circle1P1 .circle1 {
+        position: absolute;
+        z-index: 1;
+        left: 47%;
+        top: 10%;
     }
 }
 
