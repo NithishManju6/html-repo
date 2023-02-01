@@ -1,0 +1,157 @@
+/* ------------------------------------------------Mobile View Starts----------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    .content1 {
+        text-align: center;
+    }
+
+    .brand1 {
+        margin: 0 auto 0 auto;
+    }
+
+    .heading1P1 .h1div {
+        font-size: 32px;
+    }
+
+    .t5 {
+        margin: 0 0 0 auto;
+    }
+
+    .nav-text0 .nav-item .nav-link {
+        margin: 25px 0 25px 0;
+        font-size: 20px;
+    }
+
+    .registerbtn .register0 {
+        font-size: 20px;
+    }
+
+    .i1 {
+        width: -webkit-fill-available;
+    }
+
+    .i2 {
+        width: -webkit-fill-available;
+    }
+
+    .img1divP1 {
+        margin: 20px 0 20px 0;
+    }
+
+    .img2divP1 {
+        margin: 20px 0 20px 0;
+    }
+
+    .imgsee {
+        background-color: #53134F;
+        width: 290px;
+        height: 102%;
+        position: absolute;
+        z-index: -1;
+        left: 5%;
+        top: -3%;
+    }
+
+    .bg0-color {
+        background-color: #53134F;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        top: -15px;
+        z-index: -1;
+        left: 0px;
+    }
+
+    .divh2P1 .weh2 {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .pad-1 {
+        padding: 0 20px 0 20px;
+    }
+
+    .c3 {
+        width: 100%;
+    }
+
+    .p2div1s3 .divp1 {
+        color: #FFFFFF;
+        text-align: justify;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
+    .left0 {
+        padding: 0 15px 0 15px;
+        margin: 25px 0 0 0;
+    }
+}
+
+/* ------------------------------------------------Mobile View ends----------------------------------------------- */
+/* ------------------------------------------------Tablets View Starts----------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-text0 .nav-item .nav-link {
+        margin: 25px 0 25px 0;
+        font-size: 20px;
+    }
+
+    .registerbtn .register0 {
+        font-size: 20px;
+    }
+
+    .i0 {
+        flex: 0 0 20%;
+    }
+
+    .imgsee {
+        background-color: #53134F;
+        width: 550px;
+        height: 350px;
+        position: absolute;
+        z-index: -1;
+        left: 16%;
+        top: -3%;
+    }
+
+    .p2div1s3 .divp1 {
+        color: #FFFFFF;
+        text-align: justify;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
+    .h4divP1 .h4P1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+}
+
+/* ------------------------------------------------Tablets View ends----------------------------------------------- */
+/* ------------------------------------------------Laptop View Starts----------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .imgsee {
+        background-color: #53134F;
+        width: 700px;
+        height: 500px;
+        position: absolute;
+        z-index: -1;
+        left: 23%;
+        top: -3%;
+    }
+
+    .p2div1s3 .divp1 {
+        color: #FFFFFF;
+        text-align: justify;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+}
+
+/* ------------------------------------------------Laptop View ends----------------------------------------------- */

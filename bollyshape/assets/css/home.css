@@ -1,0 +1,151 @@
+.section1P1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.heading0P1 {
+    position: relative;
+}
+
+.heading1P1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.heading1P1 .h1div {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.bg-color {
+    background-color: #53134F;
+    width: 400px;
+    height: 121px;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    right: 0;
+}
+
+.t5 {
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+}
+
+.firstrow {
+    margin-top: 50px;
+}
+
+.img1divP1 {
+    margin: 112px 0 0 0;
+}
+
+.section2P1 {
+    margin: 100px 0 150px 0;
+}
+
+.c2 {
+    position: relative;
+}
+
+.bg0-color {
+    background-color: #53134F;
+    width: 50%;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
+}
+
+.dance1 {
+    width: 685px;
+}
+
+.divh2P1 .weh2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.img2h2P1 {
+    margin: 25px 0 0 0;
+}
+
+.h3divP1 .h3P1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.p1divP1 .p1P1 {
+    color: #FFFFFF;
+    margin: 15px 0 15px 0;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.left0 {
+    padding-left: 80px;
+    align-self: flex-end;
+}
+
+.h4div0P1 .divh40 {
+    color: #57FFEB;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+}
+
+.h4div0P1 .divp1 {
+    color: #FFFFFF;
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+}
+
+.p2div1s3 .divp1 {
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.section3P1 {
+    position: relative;
+}
+
+.imgsee {
+    background-color: #53134F;
+    width: 840px;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    left: 23%;
+    top: -3%;
+}
+
+.c3 {
+    width: 60%;
+}
+
+.circle1P1 .circle1 {
+    position: absolute;
+    z-index: 9;
+}
+
+.pad-1 {
+    padding: 0 0 0 45px;
+}
+
+.h4divP1 .h4P1 {
+    text-align: end;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+}

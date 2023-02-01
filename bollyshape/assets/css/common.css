@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/poppins/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3b0d38;
+}
+
+.mini-nav {
+  background-color: #e6fffc;
+}
+
+.content1 .number1 {
+  color: #3b0d38;
+  font-size: 14px;
+}
+
+.content1 .number1:hover {
+  color: #53134f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content1 .sp1 {
+  color: #3b0d38;
+  font-size: 14px;
+}
+
+.content1 .email1 {
+  color: #3b0d38;
+  font-size: 14px;
+}
+
+.content1 .email1:hover {
+  color: #53134f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.brand1 {
+  padding: 0 0 0 0;
+  font-size: 0px;
+  margin: 0 0 0 0;
+}
+
+.registerbtn .register0 {
+  background-color: #57FFEB;
+  color: #1A5852;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+
+.registerbtn .register0:hover {
+  background-color: #1A5852;
+  color: #57FFEB;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+
+.nav-text0 .nav-item .nav-link {
+  color: #FFFFFF;
+  padding: 0 0 0 0;
+  margin: 0 20px 0 20px;
+  font-weight: 700;
+}
+
+.nav-text0 .nav-item .nav-link:hover {
+  color: #BF31B6;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #FFFFFF;
+}
