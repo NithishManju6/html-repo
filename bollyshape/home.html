@@ -12,16 +12,14 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/home.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Home Page</title>
 </head>
 
 <body>
-    <div class="mini-nav d-lg-block d-none">
+    <div class="mini-nav ">
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg d-md-flex d-none">
                 <a class="navbar-brand brand1" href="#">
                     <img src="assets/images/home_page_images/logo1.png" alt="logo1" class="img-fluid i1">
                 </a>
@@ -31,23 +29,39 @@
                     <a href="home.html" class="email1" type="email">info@beingconsistent.com</a>
                 </div>
             </nav>
+            <nav class="navbar navbar-expand-lg d-md-none d-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/home_page_images/logo1.png" alt="logo1" class="img-fluid i1">
+                </a>
+                <div class="content1 ml-auto">
+                    <a href="home.html" class="number1" type="number">
+                        <img src="assets/images/home_page_images/telephone_icon.svg" alt="telephone_icon"
+                            class="img-fluid telephone_icon">
+                    </a>
+                    <a href="home.html" class="email1" type="email">
+                        <img src="assets/images/home_page_images/email.svg" alt="email" class="img-fluid">
+                    </a>
+                </div>
+            </nav>
         </div>
         <div></div>
     </div>
     <header class="header1">
         <div class="container">
             <nav class="navbar navbar-expand-lg nav1">
-                <a class="navbar-brand brand2" href="#">
+                <a class="navbar-brand d-md-block d-none" href="#">
                     <img src="assets/images/home_page_images/logo2.png" alt="logo2" class="img-fluid">
+                </a>
+                <a class="navbar-brand d-md-none d-block" href="#">
+                    <img src="assets/images/home_page_images/logo3.png" alt="logo3" class="img-fluid">
                 </a>
                 <button class="navbar-toggler mt-3 t5" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <img src="assets/images/home_page_images/menu.svg" alt="hamburger_icon" class="img-fluid">
+                        <img src="assets/images/home_page_images/menu_icon.svg" alt="menu_icon" class="img-fluid">
                     </span>
                 </button>
-
                 <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto nav-text0">
                         <li class="nav-item ">
@@ -73,10 +87,10 @@
     <section class="section1P1">
         <div class="container heading0P1">
             <div class="heading1P1">
-                <h1 class="h1div">It's Time To Groove and Move</h1>
+                <h1>It's Time To Groove and Move</h1>
             </div>
             <div class="bg-color"></div>
-            <div class="firstrow">
+            <div class="firstrow d-md-block d-none">
                 <div class="row">
                     <div class="col-lg col-md-3 i0">
                         <div class="img1divP1">
@@ -105,42 +119,73 @@
                     </div>
                 </div>
             </div>
+            <div class="secondrow d-block d-md-none">
+                <div class="row ">
+                    <div class="col">
+                        <div>
+                            <img src="assets/images/home_page_images/boy_M1.png" alt="boy_M1" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="assets/images/home_page_images/girl_M1.png" alt="girl_M1"
+                                class="img-fluid girl_M1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="assets/images/home_page_images/girl_M2.png" alt="girl_M2" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="section2P1 c2">
-        <div class="bg0-color"></div>
+        <div class="bg0-color d-md-block d-none"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="divh2P1">
-                        <h2 class="weh2">We're doing
+                    <div class=" d-md-block d-none">
+                        <h2>We're doing
                             something Special.
                         </h2>
                     </div>
-                    <div class="img2h2P1">
+                    <div class="img2h2P1  d-md-block d-none">
                         <img src="assets/images/home_page_images/group_dance.png" alt="group_dance"
                             class="img-fluid dance1">
                     </div>
+                    <div class="bg1-colorS2 d-md-none d-block">
+                        <div>
+                            <h2>We're doing
+                                something Special.
+                            </h2>
+                        </div>
+                        <div class="img2h2P1">
+                            <img src="assets/images/home_page_images/group_dance_M.png" alt="group_dance_M"
+                                class="img-fluid dance1">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 left0">
-                    <div class="h3divP1">
-                        <h3 class="h3P1">Why is it so special?</h3>
+                    <div>
+                        <h4 class="h4_Mobilevie">Why is it so special?</h4>
                     </div>
                     <div class="p1divP1">
-                        <p class="p1P1">
+                        <p>
                             Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna elementum
                             dictum. Eget tincidunt
                             adipiscing laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst in.
                         </p>
-                        <p class="p1P1">
+                        <p>
                             Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna elementum
                         </p>
-                        <p class="p1P1">
+                        <p>
                             Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna elementum
                             dictum. Eget tincidunt
                         </p>
                     </div>
-                    <div class="registerbtn text-right">
+                    <div class=" text_MobileView text-right">
                         <a href="#" class="btn register0">Know More</a>
                     </div>
                 </div>
@@ -149,27 +194,28 @@
     </section>
     <section class="section3P1">
         <div class="container c3">
-            <div class="imgsee">
+            <div class="imgsee d-md-block d-none">
             </div>
             <div class="circle1P1">
                 <img src="assets/images/home_page_images/seill.png" alt="seill" class="img-fluid circle1">
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="h4divP1">
-                        <h4 class="h4P1">The Originator</h4>
+                <div class="col-lg-6">
+                    <div class="h2divP1">
+                        <h2>The Originator</h2>
                     </div>
                     <div class="img1divs2P1">
                         <img src="assets/images/home_page_images/g1s3.png" alt="g1s3" class="img-fluid contain1">
                     </div>
                 </div>
-                <div class="col-md-6 align-self-center pad-1">
+                <div class="col-lg-6 align-self-center pad-1">
+                    <div class="bg1-colorS20 d-md-none d-block"></div>
                     <div class="h4div0P1">
                         <h4 class="divh40">Urvashi Jivani</h4>
                         <p class="divp1">Dance instructor</p>
                     </div>
                     <div class="p2div1s3">
-                        <p class="divp1">Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus
+                        <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus
                             magna
                             elementum dictum. Eget tincidunt adipiscing laoreet eget at neque. Est, phasellus cras
                             diam
@@ -186,7 +232,433 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <section class="section4P1">
+        <div class="container p1">
+            <div class="testimonals">
+                <h3 class="testmonials_M">Testimonials</h3>
+            </div>
+            <div class="position-relative">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face1.png" alt="face1"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face2.png" alt="face2"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face1.png" alt="face1"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face2.png" alt="face2"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face1.png" alt="face1"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row no-gutters">
+                                <div class="col-md-6">
+                                    <div class="imgdivs4">
+                                        <img src="assets/images/home_page_images/face2.png" alt="face2"
+                                            class="img-fluid face1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="headings4">
+                                        <div class="h4divs4">
+                                            <h4>John Doe</h4>
+                                        </div>
+                                        <div class="h6divs4">
+                                            <h6>Instructor</h6>
+                                        </div>
+                                        <div class="p1divs4">
+                                            <p>Posuere est, magna sit egestas tellus integer quam odio.
+                                                Rutrum magna elementum dictum. Eget tincidunt adipiscing
+                                                laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next d-md-block d-none"></div>
+                <div class="swiper-button-prev d-md-block d-none"></div>
+                <div class="swiper-button-next d-md-none d-block move1"></div>
+                <div class="swiper-button-prev d-md-none d-block move2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section5P1">
+        <div class="container">
+            <div class="backgrounds5 d-md-block d-none"></div>
+            <div class="width-minimize">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="h1s5div">
+                            <h1>Your Passion
+                                is our Satisfaction</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p1s5div">
+                            <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum magna elementum dictum.
+                                Eget
+                                tincidunt adipiscing laoreet eget at neque. Est, phasellus cras diam morbi diam dictumst
+                                in.
+                                Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna elementum
+                                Posuere est, magna sit egestas tellus integer quamodio.</p>
+                            <div class=" text_MobileView text-right">
+                                <a href="#" class="btn register0">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seconds5_row d-md-block d-none">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 ">
+                        <a href="classes.html" class="passion-anchor1">
+                            <div class="passion">
+                                <img src="assets/images/home_page_images/boy1_dance.png" alt="boy1_dance"
+                                    class="img-fluid image0">
+                                <div class="picture1">
+                                    <h3>Teens & Adults</h3>
+                                </div>
+                                <div class="overlay0">
+                                    <div class="picture3">
+                                        <h3>Teens & Adults</h3>
+                                    </div>
+                                    <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna
+                                        elementum dictum. Eget tincidunt adipiscing laoreet eget at neque. Est,
+                                        phasellus cras diam morbi diam dictumst in. Posuere est, magna sit egestas
+                                        tellus integer quam .</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="classes.html" class="passion-anchor1">
+                            <div class="passion">
+                                <img src="assets/images/home_page_images/girls1_dance.png" alt="girls1_dance"
+                                    class="img-fluid image0">
+                                <div class="picture1">
+                                    <h3>Juniors</h3>
+                                </div>
+                                <div class="overlay0">
+                                    <div class="picture3">
+                                        <h3>Teens & Adults</h3>
+                                    </div>
+                                    <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna
+                                        elementum dictum. Eget tincidunt adipiscing laoreet eget at neque. Est,
+                                        phasellus cras diam morbi diam dictumst in. Posuere est, magna sit egestas
+                                        tellus integer quam .</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="classes.html" class="passion-anchor1">
+                            <div class="passion">
+                                <img src="assets/images/home_page_images/group_d1.png" alt="group_d1"
+                                    class="img-fluid image0">
+                                <div class="picture1">
+                                    <h3>Special Events</h3>
+                                </div>
+                                <div class="overlay0">
+                                    <div class="picture3">
+                                        <h3>Teens & Adults</h3>
+                                    </div>
+                                    <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum rhoncus magna
+                                        elementum dictum. Eget tincidunt adipiscing laoreet eget at neque. Est,
+                                        phasellus cras diam morbi diam dictumst in. Posuere est, magna sit egestas
+                                        tellus integer quam .</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_row d-md-none d-block">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img3div1">
+                            <div><img src="assets/images/home_page_images/boy1_dance.png" alt="boy1_dance"
+                                    class="img-fluid boy1_dance_M"></div>
+                            <div>
+                                <h4>Teens & Adults</h4>
+                            </div>
+                            <div class="p3divteens">
+                                <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum magna elementum
+                                    dictum. Eget tincidunt adipiscing laoreet eget at neque. Est, phasellus cras diam
+                                    morbi diam dictumst in. Posuere est, magna sit egestas tellus integer quam odio.
+                                    Rutrum rhoncus magna elementum Posuere est, magna sit egestas tellus
+                                    integer quam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img3div1">
+                            <div><img src="assets/images/home_page_images/group_d1.png" alt="boy1_dance"
+                                    class="img-fluid boy1_dance_M"></div>
+                            <div>
+                                <h4>Juniors</h4>
+                            </div>
+                            <div class="p3divteens">
+                                <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum magna elementum
+                                    dictum. Eget tincidunt adipiscing laoreet eget at neque. Est, phasellus cras diam
+                                    morbi diam dictumst in. Posuere est, magna sit egestas tellus integer quam odio.
+                                    Rutrum rhoncus magna elementum Posuere est, magna sit egestas tellus
+                                    integer quam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img3div1">
+                            <div><img src="assets/images/home_page_images/group_d1.png" alt="boy1_dance"
+                                    class="img-fluid boy1_dance_M"></div>
+                            <div>
+                                <h4>Special Events</h4>
+                            </div>
+                            <div class="p3divteens">
+                                <p>Posuere est, magna sit egestas tellus integer quam odio. Rutrum magna elementum
+                                    dictum. Eget tincidunt adipiscing laoreet eget at neque. Est, phasellus cras diam
+                                    morbi diam dictumst in. Posuere est, magna sit egestas tellus integer quam odio.
+                                    Rutrum rhoncus magna elementum Posuere est, magna sit egestas tellus
+                                    integer quam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6P1">
+        <div class="container">
+            <div class="hrline0"></div>
+        </div>
+    </section>
+    <footer class="footer1">
+        <div class="container">
+            <div class="logoimagef d-md-block d-none">
+                <a href="home.html">
+                    <img src="assets/images/home_page_images/footer_logo.png" alt="footer_logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="firstrow d-md-block d-none">
+                <div class="row">
+                    <div class="col-md"></div>
+                    <div class="col-md">
+                        <div class="fdiv1">
+                            <div class="fimgdiv1"><img src="assets/images/home_page_images/location_icon.svg"
+                                    alt="location_icon" class="img-fluid"></div>
+                            <div class="fdiv2">
+                                <h5>Edison, NJ</h5>
+                                <p>485 US-1, 2nd floor Suite 4, Edison, NJ 08817</p>
+                            </div>
+                        </div>
+                        <div class="fdiv1">
+                            <div class="f2imgdiv1">
+                                <a href="home.html">
+                                    <img src="assets/images/home_page_images/phone-call.svg" alt="phone-call"
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="fadiv2">
+                                <a href="#">+11 0987 6543 321</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="fdiv2">
+                            <h5>Princeton, NJ</h5>
+                            <p>29 Emmons Drive, Suite F-50, Princeton, NJ 08540</p>
+                        </div>
+                        <div class="fdiv1">
+                            <div class="f2imgdiv1">
+                                <a href="home.html">
+                                    <img src="assets/images/home_page_images/footer_email.svg" alt="footer_email"
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="fadiv2">
+                                <a href="#">janedoe@abc.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md"></div>
+                </div>
+            </div>
+            <div class="secondrowf d-md-none d-block">
+                <div class="logoimagef_M">
+                    <a href="home.html">
+                        <img src="assets/images/home_page_images/footer_logo_M.png" alt="footer_logo_M"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="footer_M">
+                    <div class="logoimagef_M">
+                        <a href="home.html">
+                            <img src="assets/images/home_page_images/location_icon.svg" alt="location_icon"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="headingsf1">
+                        <h5>Edison, NJ</h5>
+                        <p>485 US-1, 2nd floor Suite 4,</p>
+                        <p>Edison, NJ 08817</p>
+                    </div>
+                    <div class="headingsf1">
+                        <h5>Edison, NJ</h5>
+                        <p>485 US-1, 2nd floor Suite 4,</p>
+                        <p>Edison, NJ 08817</p>
+                    </div>
+                    <div class="logoimagef_M">
+                        <a href="home.html">
+                            <img src="assets/images/home_page_images/footer_email.svg" alt="footer_email"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="fa2div2">
+                        <a href="#">janedoe@abc.com</a>
+                    </div>
+                    <div class="logoimagef_M">
+                        <a href="home.html">
+                            <img src="assets/images/home_page_images/phone-call.svg" alt="phone-call" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="fa2div2">
+                        <a href="#">+11 0987 6543 321</a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot3 justify-content-center  d-md-flex d-block">
+                <div><a href="home.html">Home</a><span class="spanlineP1"> | </span></div>
+                <div><a href="about.html">About</a><span class="spanlineP1"> | </span></div>
+                <div><a href="classes.html">Classes</a><span class="spanlineP1"> | </span></div>
+                <div><a href="contact.html">Contact</a></div>
+            </div>
+            <div class="foot3 justify-content-center  d-md-flex d-none">
+                <div><a href="#">Copyright © 2022, Being Consistent</a><span class="spanlineP1"> |
+                    </span></div>
+                <div><a href="#">All Rights Reserved</a><span class="spanlineP1"> | </span></div>
+                <div><a href="#">Privacy Policy</a><span class="spanlineP1"> | </span></div>
+                <div><a href="#">Terms & Conditions</a></div>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -223,7 +695,7 @@
                     slidesPerView: 2,
                 },
                 1200: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                 },
             },
         });

@@ -16,35 +16,78 @@ body {
   background-color: #3b0d38;
 }
 
+section {
+  margin: 100px 0 100px 0;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+footer {
+  margin: 0px 0 100px 0;
+}
+
+.hrline0 {
+  border: 1px solid #FFFFFF;
+  margin-top: 50px;
+}
+
 .mini-nav {
   background-color: #e6fffc;
 }
 
-.content1 .number1 {
+.content1 a {
   color: #3b0d38;
   font-size: 14px;
+  font-weight: bold;
 }
 
-.content1 .number1:hover {
+.content1 a:hover {
   color: #53134f;
   font-size: 14px;
   font-weight: bold;
 }
 
-.content1 .sp1 {
+.content1 span {
   color: #3b0d38;
   font-size: 14px;
-}
-
-.content1 .email1 {
-  color: #3b0d38;
-  font-size: 14px;
-}
-
-.content1 .email1:hover {
-  color: #53134f;
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .brand1 {
@@ -53,7 +96,7 @@ body {
   margin: 0 0 0 0;
 }
 
-.registerbtn .register0 {
+.register0 {
   background-color: #57FFEB;
   color: #1A5852;
   padding: 10px 20px 10px 20px;
@@ -63,7 +106,7 @@ body {
   border-radius: 0;
 }
 
-.registerbtn .register0:hover {
+.register0:hover {
   background-color: #1A5852;
   color: #57FFEB;
   border: none;
@@ -71,16 +114,144 @@ body {
   border-radius: 0;
 }
 
-.nav-text0 .nav-item .nav-link {
+.nav-text0 .nav-link {
   color: #FFFFFF;
   padding: 0 0 0 0;
   margin: 0 20px 0 20px;
   font-weight: 700;
 }
 
-.nav-text0 .nav-item .nav-link:hover {
+.nav-text0 .nav-link:hover {
   color: #BF31B6;
   text-decoration: underline;
   text-underline-offset: 0.3em;
   text-decoration-color: #FFFFFF;
 }
+
+.foot3 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.foot3 a {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.foot3 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.foot3 .spanlineP1 {
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 0 25px 0 25px;
+}
+
+.logoimagef img {
+  display: block;
+  margin: auto;
+}
+
+.firstrow {
+  margin: 50px 0 0 0;
+}
+
+.firstrow .fdiv1 {
+  display: flex;
+}
+
+.fimgdiv1 img {
+  margin-right: 30px;
+}
+
+.fdiv2 h5 {
+  color: #FFFFFF;
+}
+
+.fdiv2 h5:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.f2imgdiv1 img {
+  margin-right: 10px;
+}
+
+.fadiv2 a {
+  color: #FFFFFF;
+}
+
+.fadiv2 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.headingsf1 {
+  margin: 25px 0 25px 0;
+}
+
+.headingsf1 h5 {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+
+.headingsf1 p {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+
+.fa2div2 a {
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  margin: 25px 0 25px 0;
+}
+
+.fa2div2 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.logoimagef_M img {
+  display: block;
+  margin: auto;
+}
+
+.logoimagef_M {
+  margin: 25px 0 25px 0;
+}
+
+.header1 {
+  background-color: #53134f;
+}
+
+.header1:hover {
+  background-color: #3B0D38;
+}
+
+/*============================================headings media query starts========================================= */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+
+/* ===========================================headings media query ends=========================================== */

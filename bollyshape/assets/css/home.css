@@ -1,8 +1,3 @@
-.section1P1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .heading0P1 {
     position: relative;
 }
@@ -11,12 +6,6 @@
     display: flex;
     justify-content: center;
     margin: 0 0 30px 0;
-}
-
-.heading1P1 .h1div {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 50px;
 }
 
 .bg-color {
@@ -30,8 +19,15 @@
 }
 
 .t5 {
-    border: 1px solid #FFFFFF;
     box-shadow: none;
+}
+
+.secondrow {
+    justify-content: space-between;
+}
+
+.girl_M1 {
+    margin: 50px 0px 0px 0px;
 }
 
 .firstrow {
@@ -64,10 +60,8 @@
     width: 685px;
 }
 
-.divh2P1 .weh2 {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 50px;
+.telephone_icon {
+    margin: 0 15px 0 0;
 }
 
 .img2h2P1 {
@@ -75,17 +69,13 @@
 }
 
 .h3divP1 .h3P1 {
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 22px;
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
 
-.p1divP1 .p1P1 {
-    color: #FFFFFF;
+.p1divP1 p {
     margin: 15px 0 15px 0;
     display: -webkit-box;
     overflow: hidden;
@@ -98,10 +88,8 @@
     align-self: flex-end;
 }
 
-.h4div0P1 .divh40 {
+.h4div0P1 h4 {
     color: #57FFEB;
-    font-weight: 700;
-    font-size: 22px;
     text-align: left;
 }
 
@@ -145,9 +133,188 @@
     padding: 0 0 0 45px;
 }
 
-.h4divP1 .h4P1 {
+.h2divP1 h2 {
     text-align: end;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 50px;
+}
+
+.background1 {
+    background-color: #53134F;
+    display: flex;
+}
+
+.background2 {
+    display: block;
+}
+
+.p1divs4 p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+.headings4 {
+    background-color: #53134F;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 0 30px;
+}
+
+.face1 {
+    object-fit: fill;
+    width: -webkit-fill-available;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+.p1 {
+    position: relative;
+}
+
+.swiper-button-next {
+    background-image: url('../images/home_page_images/right_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -5%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.swiper-button-prev {
+    background-image: url('../images/home_page_images/left_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -5%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.move1 {
+    background-image: url('../images/home_page_images/right_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 30%;
+    top: 100%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.move2 {
+    background-image: url('../images/home_page_images/left_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+    top: 100%;
+    transform: translateY(50%);
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.section5P1 {
+    position: relative;
+}
+
+.backgrounds5 {
+    background-color: #53134F;
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    width: 100%;
+    height: 300px;
+}
+
+.width-minimize {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 25px 0 25px 0;
+}
+
+.h1s5div h1 {
+    text-align: center;
+}
+
+.passion {
+    position: relative;
+    display: block;
+    transition: all 0.4s linear;
+}
+
+.passion .image0 {
+    width: 100%;
+    height: 344px;
+    object-fit: fill;
+}
+
+.picture1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(87, 255, 235, 0.8);
+    padding: 15px 10px 20px 10px;
+    text-align: center;
+    height: 20%;
+}
+
+.picture1 h3 {
+    color: #1a5852;
+}
+
+.overlay0 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 1s ease;
+    padding: 40px 20px 0 20px;
+}
+
+.passion:hover .overlay0 {
+    height: 100%;
+    background: rgba(87, 255, 235, 0.8);
+}
+
+.passion:hover {
+    margin: -20px 0 0px 0;
+}
+
+.passion:hover .picture1 {
+    display: none;
+}
+
+.picture3 h3 {
+    color: #1A5852;
+    text-align: center;
+    font-weight: 600;
+}
+
+.img3div1 img {
+    margin-bottom: 25px;
+}
+
+.overlay0 p {
+    color: #1A5852;
+    text-align: justify;
+}
+
+.boy1_dance_M {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.p3divteens p {
+    margin-top: 25px;
+    font-size: 14px;
 }
