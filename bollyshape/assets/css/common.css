@@ -135,6 +135,10 @@ footer {
   justify-content: center;
 }
 
+.nav-text0 .l1 {
+  color: #BF31B6;
+}
+
 .foot3 a {
   color: #FFFFFF;
   font-weight: 400;
@@ -231,12 +235,12 @@ footer {
   margin: 25px 0 25px 0;
 }
 
-.header1 {
+.header2 {
   background-color: #53134f;
 }
 
 .header1:hover {
-  background-color: #3B0D38;
+  background-color: #53134f;
 }
 
 /*============================================headings media query starts========================================= */

@@ -38,8 +38,93 @@
 .section3P22 {
     background-color: #53134F;
     padding: 50px 0 0 0;
+    margin: 0 0 250px 0;
 }
 
 .img1s32div1 img {
     margin: 0 0 -45% 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+.p1 {
+    position: relative;
+}
+
+.p1 .swiper-button-next {
+    background-image: url('../images/home_page_images/right_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -5%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.p1 .swiper-button-prev {
+    background-image: url('../images/home_page_images/left_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -5%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.p1 .move1 {
+    background-image: url('../images/home_page_images/right_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 30%;
+    top: 100%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.p1 .move2 {
+    background-image: url('../images/home_page_images/left_arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+    top: 100%;
+    transform: translateY(50%);
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+}
+
+.instructor h2 {
+    text-align: end;
+}
+
+.img1s4div1 img {
+    width: 100%;
+    height: 300px;
+    margin: 0 0 0 0;
+}
+
+.img2s4div1 img {
+    width: 100%;
+    height: 300px;
+    margin: 50px 0 0 0;
+}
+
+.divs4headings {
+    background-color: #FFFFFF;
+    padding: 10px 0 15px 0;
+}
+
+.divs4headings h4 {
+    color: #1A5852;
+    text-align: center;
+}
+
+.divs4headings h6 {
+    color: #1A5852;
+    text-align: center;
 }

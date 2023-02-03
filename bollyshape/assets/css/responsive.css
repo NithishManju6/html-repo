@@ -250,6 +250,11 @@
         margin: auto;
         font-size: 28px;
     }
+
+    .left0 {
+        padding-left: 40px;
+        align-self: flex-end;
+    }
 }
 
 /* ------------------------------------------------Tablets View ends----------------------------------------------- */
