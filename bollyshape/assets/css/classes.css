@@ -58,11 +58,11 @@
 }
 
 .arrows1::after {
-    content: url('../images/classes_page_images/top_arrow.svg');
+    content: url('../images/classes_page_images/down_arrow.svg');
 }
 
 .arrows1[aria-expanded="true"]:after {
-    content: url('../images/classes_page_images/down_arrow.svg');
+    content: url('../images/classes_page_images/top_arrow.svg');
 }
 
 .arrows1:focus {

@@ -248,20 +248,22 @@
         -webkit-line-clamp: 6;
     }
 
-    .form1 {
-        width: 100%;
-    }
-
-    .d1t1 {
-        width: 100%;
-    }
-
     .mobile_number {
         width: 100%;
     }
 
-    .selective_form {
-        width: 27%;
+    .form-control {
+        width: 100%;
+    }
+
+    .mobile_number .form-control {
+        width: 100%;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .selective_form .form-control {
+        width: 60px;
+        border-radius: 8px 0 0 8px;
     }
 
     .contactP6div {
@@ -364,20 +366,30 @@
         width: 100%;
     }
 
-    .form1 {
-        width: 100%;
-    }
-
-    .d1t1 {
+    /* .form1 {
         width: 100%;
     }
 
     .selective_form {
         width: 10%;
     }
-
+*/
     .mobile_number {
         width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .mobile_number .form-control {
+        width: 100%;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .selective_form .form-control {
+        width: 60px;
+        border-radius: 8px 0 0 8px;
     }
 
     .contactP6div {
@@ -432,6 +444,20 @@
 
     .h2s2P3 h2 {
         font-size: 48px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .mobile_number .form-control {
+        width: 140px;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .selective_form .form-control {
+        width: 60px;
+        border-radius: 8px 0 0 8px;
     }
 }
 
