@@ -57,7 +57,7 @@ h6 {
 
 p {
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer {
@@ -94,6 +94,12 @@ footer {
   padding: 0 0 0 0;
   font-size: 0px;
   margin: 0 0 0 0;
+}
+
+label {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 1.2;
 }
 
 .register0 {
@@ -246,7 +252,7 @@ footer {
 /*============================================headings media query starts========================================= */
 @media only screen and (max-width: 767px) {
   h1 {
-    font-size: 33px;
+    font-size: 28px;
     line-height: 36px;
     text-align: center;
   }

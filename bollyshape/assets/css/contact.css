@@ -1,0 +1,45 @@
+.hconnect1 h2 {
+    margin: 0 0 30px 0;
+}
+
+.section1P6 {
+    background-color: #53134F;
+    margin: 0 0 0 0;
+    padding: 20px 0 50px 0;
+}
+
+.formValidation .has-error .help-block {
+    color: #d06868;
+    font-size: 12px;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+.form1 {
+    width: 60px;
+}
+
+.d1t1 {
+    width: 208px;
+}
+
+.text_MobileView {
+    margin-top: 30px;
+}
+
+.form-control {
+    background-color: #53134F;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border: 0.5px solid #53134F;
+}
+
+.registerdiv1 img {
+    height: 494px;
+    width: 100%;
+}
