@@ -1,0 +1,47 @@
+.bigerror img {
+    margin-bottom: 50px;
+    display: block;
+    margin: auto;
+}
+
+.bigerror1 img {
+    margin-bottom: 40px;
+    display: block;
+    margin: auto;
+}
+
+.bigerror {
+    background-color: #53134F;
+    background-image: url('../images/classes_page_images/frame01.png');
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px 20px 30px 20px;
+}
+
+.bigerror h1 {
+    font-size: 140px;
+    text-align: center;
+}
+
+.bigerror h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.h1diverror h1 {
+    font-size: 140px;
+    text-align: center;
+    margin: 35px 0 45px 0;
+}
+
+.h3diverror h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 0 45px 0;
+    padding: 30px 0 0 0;
+}
+
+.text2error {
+    margin: 50px 0 20px 0;
+}
