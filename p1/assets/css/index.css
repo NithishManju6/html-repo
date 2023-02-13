@@ -1,0 +1,150 @@
+body {
+    background-color: #f8aa022d;
+}
+
+.hd_nav {
+    display: flex;
+    justify-content: end;
+}
+
+.ysignin:link,
+.ysignin:visited {
+    text-decoration: none;
+}
+
+.text {
+    color: #000000;
+    font-size: 25px;
+}
+
+.text:hover {
+    color: #0245fc;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: #000000;
+}
+
+.img1 {
+    height: 30px;
+    margin-left: 15px;
+}
+
+.section1 {
+    padding: 40px 0 0px 0;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.m1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.h2div1 h2 {
+    text-align: center;
+}
+
+.m1 input {
+    width: 450px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.397);
+}
+
+.icon-search {
+    padding: 5px 25px 5px 25px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.icon-find .a1-icon {
+    display: flex;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-find .a1-icon h3 {
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon-find h3:hover {
+    text-decoration: none;
+    color: #0004f5c5;
+}
+
+.icon-find {
+    border-bottom: 1px solid #000000a9;
+    padding-inline-start: 0px;
+    padding: 10px 0 10px 0;
+}
+
+.icon-find:hover {
+    border-bottom: 3px solid #ff4800a9;
+}
+
+.icon-find .a1-icon img {
+    width: 36px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.icon-find .a1-icon span {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+.icon-find .a1-icon span:hover {
+    text-decoration: none;
+}
+
+.searchlist {
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+.historyItems {
+    color: #000000;
+    font-size: 20px;
+}
+
+.h2div0 {
+    display: flex;
+    justify-content: center;
+}
+
+.div1h2s1 {
+    display: flex;
+    justify-content: center;
+}
+
+.mostview {
+    font-size: 16px;
+    color: #0245fc;
+}
+
+.buildPopupDom {
+    font-size: 16px;
+    color: #0245fc;
+}
