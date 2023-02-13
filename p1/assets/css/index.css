@@ -15,6 +15,7 @@ body {
 .text {
     color: #000000;
     font-size: 25px;
+    padding: 0 0 0 0;
 }
 
 .text:hover {
@@ -27,11 +28,11 @@ body {
 .img1 {
     height: 30px;
     margin-left: 15px;
+    padding: 0 0 0 0;
 }
 
 .section1 {
     padding: 40px 0 0px 0;
-    cursor: pointer;
 }
 
 .logo img {
@@ -40,6 +41,7 @@ body {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 35px;
+    padding: 0 0 0 0;
 }
 
 .m1 {
@@ -129,22 +131,28 @@ a:visited {
     font-size: 20px;
 }
 
-.h2div0 {
+/* .h2div0 {
     display: flex;
     justify-content: center;
+} */
+
+.div1h2s1 .mostview {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #0245fc;
+}
+
+.div1h2s1 h2 {
+    text-align: center;
 }
 
 .div1h2s1 {
-    display: flex;
-    justify-content: center;
-}
-
-.mostview {
-    font-size: 16px;
-    color: #0245fc;
-}
-
-.buildPopupDom {
-    font-size: 16px;
-    color: #0245fc;
+    background-color: #FFFFFF;
+    padding: 25px 25px 25px 25px;
+    width: 45%;
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px 4px 0px rgba(26, 25, 25, 0.397);
+    border-radius: 25px;
 }

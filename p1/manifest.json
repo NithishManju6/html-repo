@@ -5,6 +5,7 @@
     "manifest_version": 3,
     "action": {
         "default_title": "hello1",
+        "default_popup": "/index.html",
         "default_icon": {
             "16": "/assets/images/icons8-chat-24.png"
         }
