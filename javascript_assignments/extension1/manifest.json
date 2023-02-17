@@ -1,16 +1,6 @@
 {
-  "name": "Trending search",
-  "description": "Base Level Extension",
-  "version": "1.0",
-  "manifest_version": 3,
-  "chrome_url_overrides": {
-    "newtab": "/index.html"
-  },
-  "action": {
-    "default_title": "hello1",
-    "default_popup": "/hello.html",
-    "default_icon": {
-      "16": "/assets/images/icons8-chat-24.png"
-    }
-  }
+  "name": "addUrl",
+  "type": "function",
+  "description": "search",
+  "active":[]
 }

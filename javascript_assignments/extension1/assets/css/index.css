@@ -123,3 +123,8 @@ a:visited {
     display: block;
     margin: auto;
 }
+
+.historyItems {
+    color: #000000;
+    font-size: 20px;
+}
