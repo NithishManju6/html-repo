@@ -1,0 +1,168 @@
+.logo1 {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo1 h2 {
+    font-size: 25px;
+    text-decoration: none;
+    color: #748177;
+    margin: 0 0 0 0;
+}
+
+.logo1:hover {
+    text-decoration: none;
+}
+
+.image1 {
+    border-radius: 50%;
+    background-color: #05cc79;
+    padding: 0px 10px 0px 10px;
+    margin: 0 10px 0 0;
+    height: 35px;
+}
+
+header {
+    padding: 0px 0 0 0;
+    margin: 25px 0 0 0;
+}
+
+section {
+    margin: 100px 0 50px 0;
+}
+
+.m1 {
+    display: flex;
+    padding: 0 25px 0 25px;
+}
+
+.m1 input {
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.image2 {
+    background-color: #FFFFFF;
+    padding: 0 0 0 5px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 27px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.input1 {
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+    border-radius: 25px;
+}
+
+.i1 .form-control {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0 0 0 0;
+}
+
+.i1 {
+    border: none;
+    outline: none;
+    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+    border-radius: 25px;
+}
+
+.icon.icon-search {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.icon.icon-search:hover,
+:focus {
+    box-shadow: none;
+}
+
+.headings {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.addtask1 {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
+}
+
+.addtask1 .form-control {
+    border: none;
+}
+
+.addtask1 .form-control:focus {
+    box-shadow: none;
+}
+
+.image3 {
+    width: 30px;
+    padding: 0 0 0 0;
+}
+
+.btn-1 {
+    padding: 0 0 0 0;
+}
+
+.btn-1:focus {
+    box-shadow: none;
+}
+
+.fa1 {
+    display: block;
+    margin: auto;
+}
+
+.heading-footer {
+    text-align: center;
+}
+
+.btn-2-fa {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.heading-footer a {
+    color: #000000;
+    padding: 0 0 0 0;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.heading-footer a:hover {
+    text-decoration: none;
+}
+
+.i2 {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100px;
+    text-align: center;
+}
+
+.i2:focus {
+    border: 1px solid #0000008c;
+}
+
+.ui-datepicker-trigger {
+    width: 45px;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Productive Tab",
+    "version": "1",
+    "description": "Add a print button to the browser",
+    "manifest_version": 3,
+    "background": {
+        "servive_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "sample.html"
+    },
+    "action": {
+        "default_title": "Productive_tab_icon"
+    },
+    "permissions": [
+        "activetab",
+        "tabs",
+        "storage"
+    ],
+    "host_permisssions": [],
+    "offline_enabled": true
+}
