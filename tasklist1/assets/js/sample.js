@@ -63,28 +63,20 @@ const tasklist1 = [];
 
 $(document).on('click', '.ui-datepicker-close', function () {
     let newtask = $('#inputtask1').val();
-    let selectedDate = $('#i1').val()
-    let obj = { task: newtask, date: selectedDate }
-    tasklist1.push(obj);
-    console.log(tasklist1);
-    localStorage.setItem("tasklists", JSON.stringify(tasklist1));
-    document.getElementById('tasks').innerHTML += `
-     <div class="task">
-         <input id="taskname" type="checkbox" name="taskname">
-         <label for="taskname" class="label1">${document.querySelector('#newtask input').value}</label>
-         </input>
-        <button class="delete_button">
-           <i class="fa fa-trash" aria-hidden="true"></i>
-        </button>
-    </div>
- `;
+    console.log('=====>', newtask, typeof (newtask));
 
-    var current_tasks = document.querySelectorAll(".delete_button");
-    for (var i = 0; i < current_tasks.length; i++) {
-        current_tasks[i].onclick = function () {
-            this.parentNode.remove();
-        }
+
+    if (newtask == "") {
+        alert("enter the task")
+    } else {
+        let selectedDate = $('#i1').val()
+        let obj = { task: newtask, date: selectedDate }
+        tasklist1.push(obj);
+        console.log(tasklist1);
+        localStorage.setItem("tasklists", JSON.stringify(tasklist1));
     }
+
+
 });
 
 let newtasklist1 = JSON.parse(localStorage.getItem("tasklists"));
@@ -103,7 +95,12 @@ document.getElementById('tasks').innerHTML = newtasklist1
     ).join("");
 
 
-
+var current_tasks = document.querySelectorAll(".delete_button");
+for (var i = 0; i < current_tasks.length; i++) {
+    current_tasks[i].onclick = function () {
+        this.parentNode.remove();
+    }
+}
 
 
 
