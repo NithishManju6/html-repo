@@ -186,8 +186,11 @@ section {
 }
 
 .task {
-    display: flex;
     margin-bottom: 15px;
+}
+
+.t1-task {
+    display: flex;
 }
 
 .new-tasks {
@@ -206,4 +209,37 @@ section {
     margin-left: 10px;
     font-size: 16px;
     font-weight: bold;
+}
+
+.btn-1-c1 {
+    width: -webkit-fill-available;
+    border: 1px solid #00000085;
+    outline: none;
+    box-shadow: none;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.btn-1-c1:focus {
+    width: -webkit-fill-available;
+    border: 1px solid #00000085;
+    outline: none;
+    box-shadow: none;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.btn-1-c1:hover {
+    width: -webkit-fill-available;
+    border: 1px solid #00000085;
+    outline: none;
+    box-shadow: none;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
 }
