@@ -194,12 +194,20 @@ section {
 }
 
 .new-tasks {
+    border: 2px solid #000000;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.grouptasks-t1 {
     width: 45%;
     margin: auto;
     background-color: #FFFFFF;
     padding: 25px 25px 25px 25px;
     margin-top: 25px;
-    border: 1px solid #00000062;
+    border: 2px solid #ff000062;
     border-radius: 10px;
     box-shadow: 2px 4px 4px rgba(14, 0, 0, 0.233);
 }
@@ -242,4 +250,11 @@ section {
     background-color: #ffffff;
     text-align: left;
     margin-bottom: 10px;
+}
+
+.new-completedtasks {
+    border: 2px solid #0062cc;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    outline: none;
 }
