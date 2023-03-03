@@ -14,8 +14,8 @@ $(function () {
 });
 /*==================================================================================================== */
 //hiding complete tasklist
-$('#dots1').on("click", function () {
-    $('#t1-hide').toggle('slow');
+$('#dots2').on("click", function () {
+    $('#completedtasks').toggle();
 });
 /*==================================================================================================== */
 const tasklist1 = [];
@@ -57,37 +57,64 @@ $(document).on('click', '.ui-datepicker-close', function () {
     }
 });
 /*==================================================================================================== */
-//compltedtask();
+compltedtask();
+
 const showsource = document.getElementById('tasks')
 
 const getlocalData = () => {
     let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
-    let showData = gettasklist.map((item) => {
+    // let showData = gettasklist.map((item) => {
+    //     return `<div class="task">
+    //      <h6>${item.date}</h6>
+    //      <div class="t1-task">
+    //      <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask">
+    //      <label for="taskname" class="label1">${item.task}</label>
+    //      </input>
+    //      <button class="delete_button" id=${item.id}>            
+    //      <i class="fa fa-trash" aria-hidden="true"></i>
+    //      </button></div>
+    //   </div> `
+    // }).join('');
+    // showsource.innerHTML = showData;
+    pendingTask()
+    compltedtask()
+}
+getlocalData();
+
+function pendingTask() {
+    const taskDiv1 = document.getElementById('completedtasks')
+    let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
+    let pendingData = gettasklist.filter((value) => value.status == false)
+    // console.log('=====>', completedData);
+    let showData = pendingData.map((item) => {
         return `<div class="task">
+         <h6>New task Added</h6>
          <h6>${item.date}</h6>
          <div class="t1-task">
          <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask">
          <label for="taskname" class="label1">${item.task}</label>
          </input>
-         <button class="delete_button" id=${item.id}>            
+         <button class="delete_button" id=${item.id}>             
          <i class="fa fa-trash" aria-hidden="true"></i>
          </button></div>
       </div> `
     }).join('');
     showsource.innerHTML = showData;
 }
-getlocalData();
+// pendingTask()
 // Completed status
 /*==================================================================================================== */
 function compltedtask() {
     const taskDiv1 = document.getElementById('completedtasks')
     let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
-    let showData1 = gettasklist.map((item) => {
+    let completedData = gettasklist.filter((value) => value.status == true)
+    // console.log('=====>', completedData);
+    let showData1 = completedData.map((item) => {
         return `<div class="task">
          <h6>Completed task</h6>
          <h6>${item.date}</h6>
          <div class="t1-task">
-         <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask checkboxtask1">
+         <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask" checked>
          <label for="taskname" class="label1">${item.task}</label>
          </input>
          <button class="delete_button" id=${item.id}>             
@@ -97,7 +124,7 @@ function compltedtask() {
     }).join('');
     taskDiv1.innerHTML = showData1;
 }
-compltedtask();
+// compltedtask();
 /*==================================================================================================== */
 
 //deleting the task by clicking img button
@@ -107,7 +134,7 @@ $(document).on('click', '.delete_button', function () {
     getlist1 = getlist1.filter(item => item.id != $this)
     localStorage.setItem("tasklists", JSON.stringify(getlist1));
     getlocalData();
-    compltedtask();
+    // compltedtask();
 })
 /*==================================================================================================== */
 // //checkbox status true /false
@@ -120,11 +147,12 @@ $(document).on('click', '.checkboxtask', function () {
             }
         })
         localStorage.setItem("tasklists", JSON.stringify(checklist1))
-        //taskDiv1.innerHTML = showData1; getlocalData();
-        compltedtask();
-        console.log("tester");
-        console.log("********=>>>>>>", checklist1)
-        // 
+        //taskDiv1.innerHTML = showData1; 
+        getlocalData();
+        // compltedtask();
+        // console.log("tester");
+        // console.log("********=>>>>>>", checklist1)
+        //getlocalData()
     }
     else {
         let checklist1 = JSON.parse(localStorage.getItem("tasklists"))
@@ -136,7 +164,8 @@ $(document).on('click', '.checkboxtask', function () {
         localStorage.setItem("tasklists", JSON.stringify(checklist1))
         //showsource.innerHTML = showData;
         getlocalData();
-        console.log("********=>>>>>> false is working", checklist1)
+        // compltedtask();
+        // console.log("********=>>>>>> false is working", checklist1)
     }
 })
 /*==================================================================================================== */

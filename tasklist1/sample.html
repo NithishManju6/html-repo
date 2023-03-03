@@ -36,9 +36,23 @@
             </div>
             <div class="headings">
                 <h3>Tasks</h3>
-                <button class="btn btn-1 ml-auto" type="submit" id="dots1" onclick="hideFunction()">
+                <!-- <button class="btn btn-1 ml-auto" type="submit" id="dots1">
                     <img src="assets/images/menu_icon.png" alt="menu_icon" class="img fluid image3" id="dots2">
+                </button> -->
+
+                <button class="btn  d1-btn1" id="dots1" type="button" data-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/images/menu_icon.png" alt="menu_icon" class="img fluid image3">
                 </button>
+                <div class="dropdown-menu m11">
+                    <!-- <input id="dots2" type="checkbox" name="taskname" class="checkboxtask">
+                    <label for="taskname" class="label1">Hide Completed</label>
+                    </input> -->
+                    <div class="d-md-flex hide1">
+                        <img src="assets/images/checked-checkbox.png" alt="checked-checkbox" class="img-fluid image4">
+                        <h4 id="dots2">Hide Completed</h4>
+                    </div>
+                </div>
+
             </div>
             <div class="addtask1" id="newtask">
                 <input type="text" id="inputtask1" class="form-control"
@@ -47,9 +61,6 @@
             </div>
             <div class="grouptasks-t1" id="t1-hide">
                 <div id="tasks" class="new-tasks"></div>
-                <div class="headings2h2">
-                    <h2 class="h2-t2">CompletedTasks</h2>
-                </div>
                 <div id="completedtasks" class="new-completedtasks">
                 </div>
             </div>
