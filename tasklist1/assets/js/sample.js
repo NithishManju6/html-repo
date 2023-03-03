@@ -16,10 +16,31 @@ $(function () {
 //hiding complete tasklist
 $('#dots2').on("click", function () {
     $('#completedtasks').toggle();
+    // $('#completedtasks').show();
+    if ($(this).text('Hide Completed')) {
+        $(this).text('Show Completed')
+    } else {
+        $(this).text('Hide Completed')
+    }
 });
 /*==================================================================================================== */
+
 const tasklist1 = [];
 const taskDiv = document.getElementById('tasks')
+const taskDiv1 = document.getElementById('completedtasks')
+
+// if (taskDiv1 == undefined) {
+//     taskDiv1.style.display = "none"
+// }
+// else {
+//     ((!taskDiv1) == undefined)
+//     //taskDiv.style.display = "block"
+// }
+
+//else {
+//     $(this).style.display = $(this)
+// }
+
 $(document).on('click', '.ui-datepicker-close', function () {
     let newtask = $('#inputtask1').val();
     // console.log('=====>', newtask, typeof (newtask));
@@ -59,7 +80,6 @@ $(document).on('click', '.ui-datepicker-close', function () {
 /*==================================================================================================== */
 compltedtask();
 
-const showsource = document.getElementById('tasks')
 
 const getlocalData = () => {
     let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
@@ -78,17 +98,27 @@ const getlocalData = () => {
     // showsource.innerHTML = showData;
     pendingTask()
     compltedtask()
+
+    if (taskDiv.innerHTML == '') {
+        document.getElementById("t1-hide").classList.add('d-none')
+    } else {
+        document.getElementById("t1-hide").classList.remove('d-none')
+    }
+    if (taskDiv1.innerHTML == '') {
+        document.getElementById("t2-hide").classList.add('d-none')
+    } else {
+        document.getElementById("t2-hide").classList.remove('d-none')
+    }
 }
 getlocalData();
 
 function pendingTask() {
-    const taskDiv1 = document.getElementById('completedtasks')
     let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
     let pendingData = gettasklist.filter((value) => value.status == false)
     // console.log('=====>', completedData);
     let showData = pendingData.map((item) => {
         return `<div class="task">
-         <h6>New task Added</h6>
+         
          <h6>${item.date}</h6>
          <div class="t1-task">
          <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask">
@@ -99,19 +129,18 @@ function pendingTask() {
          </button></div>
       </div> `
     }).join('');
-    showsource.innerHTML = showData;
+    taskDiv.innerHTML = showData;
 }
 // pendingTask()
 // Completed status
 /*==================================================================================================== */
 function compltedtask() {
-    const taskDiv1 = document.getElementById('completedtasks')
     let gettasklist = JSON.parse(localStorage.getItem('tasklists'))
     let completedData = gettasklist.filter((value) => value.status == true)
     // console.log('=====>', completedData);
     let showData1 = completedData.map((item) => {
         return `<div class="task">
-         <h6>Completed task</h6>
+        
          <h6>${item.date}</h6>
          <div class="t1-task">
          <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask" checked>
