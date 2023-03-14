@@ -1,311 +1,310 @@
 .logo1 {
-    display: flex;
-    text-decoration: none;
+  display: flex;
+  text-decoration: none;
 }
 
 .logo1 h2 {
-    font-size: 25px;
-    text-decoration: none;
-    color: #748177;
-    margin: 0 0 0 0;
+  font-size: 25px;
+  text-decoration: none;
+  color: #748177;
+  margin: 0 0 0 0;
 }
 
 .logo1:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .image1 {
-    border-radius: 50%;
-    background-color: #05cc79;
-    padding: 0px 10px 0px 10px;
-    margin: 0 10px 0 0;
-    height: 35px;
+  border-radius: 50%;
+  background-color: #05cc79;
+  padding: 0px 10px 0px 10px;
+  margin: 0 10px 0 0;
+  height: 35px;
 }
 
 header {
-    padding: 0px 0 0 0;
-    margin: 25px 0 0 0;
+  padding: 0px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 section {
-    margin: 100px 0 50px 0;
+  margin: 100px 0 50px 0;
 }
 
 .m1 {
-    display: flex;
-    padding: 0 25px 0 25px;
+  display: flex;
+  padding: 0 25px 0 25px;
 }
 
 .m1 input {
-    width: 100%;
-    border: none;
-    outline: none;
-    box-shadow: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .image2 {
-    background-color: #FFFFFF;
-    padding: 0 0 0 5px;
-    border: none;
-    outline: none;
-    box-shadow: none;
-    width: 27px;
-    height: 20px;
-    display: block;
-    margin: auto;
+  background-color: #ffffff;
+  padding: 0 0 0 5px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 27px;
+  height: 20px;
+  display: block;
+  margin: auto;
 }
 
 .input1 {
-    width: 60%;
-    margin: auto;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
-    border-radius: 25px;
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+  border-radius: 25px;
 }
 
 .i1 .form-control {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    padding: 0 0 0 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 0 0 0;
 }
 
 .i1 {
-    border: none;
-    outline: none;
-    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
-    border-radius: 25px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+  border-radius: 25px;
 }
 
 .icon.icon-search {
-    border: none;
-    outline: none;
-    box-shadow: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .icon.icon-search:hover,
 :focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .headings {
-    display: flex;
-    width: 45%;
-    margin: auto;
-    margin-top: 25px;
+  display: flex;
+  width: 45%;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .addtask1 {
-    display: flex;
-    width: 45%;
-    margin: auto;
-    box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
-    padding: 5px 25px 5px 25px;
-    border-radius: 25px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 45%;
+  margin: auto;
+  box-shadow: 1px 0px 7px 2px rgb(14 0 0 / 38%);
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .addtask1 .form-control {
-    border: none;
+  border: none;
 }
 
 .addtask1 .form-control:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
-.show>.btn-secondary.dropdown-toggle {
-    color: transparent;
-    border: none;
+.show > .btn-secondary.dropdown-toggle {
+  color: transparent;
+  border: none;
 }
 
 .image3 {
-    padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .m11 {
-    padding: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
 }
 
 .image4 {
-    padding: 0 0 0 0;
-    margin-right: 5px;
-    width: 25px;
-    height: 25px;
+  padding: 0 0 0 0;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 .hide1 h4 {
-    font-size: 16px;
-    color: #000000b0;
-    margin: auto;
+  font-size: 16px;
+  color: #000000b0;
+  margin: auto;
 }
 
 .btn-1 {
-    padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .btn-1:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .fa1 {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .heading-footer {
-    text-align: center;
+  text-align: center;
 }
 
 .btn-2-fa {
-    border: none;
-    outline: none;
-    box-shadow: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .heading-footer a {
-    color: #000000;
-    padding: 0 0 0 0;
-    margin: 0 10px 0 10px;
-    text-decoration: none;
+  color: #000000;
+  padding: 0 0 0 0;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
 }
 
 .heading-footer a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .i2 {
-    border: 0 !important;
-    outline: none;
-    box-shadow: none;
-    width: 28px;
-    height: 28px;
-    text-align: center;
-    background-image: url('../images/calendar.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    color: transparent;
+  border: 0 !important;
+  outline: none;
+  box-shadow: none;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  background-image: url("../images/calendar.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: transparent;
 }
 
-
 .i2:focus {
-    border: 1px solid #0000008c;
+  border: 1px solid #0000008c;
 }
 
 .ui-datepicker-trigger {
-    width: 30px;
-    height: 30px;
-    margin: auto;
+  width: 30px;
+  height: 30px;
+  margin: auto;
 }
 
 .delete_button {
-    border: none;
-    outline: none;
-    /* box-shadow: 2px 4px 4px rgb(14 0 0 / 38%); */
-    box-shadow: none;
-    margin-left: auto;
+  border: none;
+  outline: none;
+  /* box-shadow: 2px 4px 4px rgb(14 0 0 / 38%); */
+  box-shadow: none;
+  margin-left: auto;
 }
 
 .task {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .t1-task {
-    display: flex;
+  display: flex;
 }
 
 .new-tasks {
-    border: 2px solid #000000;
-    padding: 15px 15px 15px 15px;
-    border-radius: 15px;
-    outline: none;
-    margin-bottom: 25px;
+  border: 2px solid #000000;
+  padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+  outline: none;
+  margin-bottom: 25px;
 }
 
 .d1-btn1 {
-    margin-left: auto;
-    padding: 0 0 0 0;
-    /* width: auto; */
-    background-color: transparent;
-    border: none;
-    outline: none;
-    box-shadow: none;
+  margin-left: auto;
+  padding: 0 0 0 0;
+  /* width: auto; */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .d1-btn1:hover {
-    margin-left: auto;
-    padding: 0 0 0 0;
-    /* width: auto; */
-    background-color: transparent;
-    border: none;
-    outline: none;
-    box-shadow: none;
+  margin-left: auto;
+  padding: 0 0 0 0;
+  /* width: auto; */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .d1-btn1:focus {
-    margin-left: auto;
-    padding: 0 0 0 0;
-    /* width: auto; */
-    background-color: transparent;
-    border: none;
-    outline: none;
-    box-shadow: none;
+  margin-left: auto;
+  padding: 0 0 0 0;
+  /* width: auto; */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .grouptasks-t1 {
-    width: 45%;
-    margin: auto;
-    background-color: #FFFFFF;
-    padding: 25px 25px 25px 25px;
-    margin-top: 25px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 2px rgb(14 0 0 / 25%);
+  width: 45%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 25px 25px 25px 25px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 2px rgb(14 0 0 / 25%);
 }
 
 .label1 {
-    margin-bottom: 0;
-    margin-left: 10px;
-    font-size: 16px;
-    font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .btn-1-c1 {
-    width: -webkit-fill-available;
-    border: 1px solid #00000085;
-    outline: none;
-    box-shadow: none;
-    color: #000000;
-    background-color: #ffffff;
-    text-align: left;
-    margin-bottom: 10px;
+  width: -webkit-fill-available;
+  border: 1px solid #00000085;
+  outline: none;
+  box-shadow: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .btn-1-c1:focus {
-    width: -webkit-fill-available;
-    border: 1px solid #00000085;
-    outline: none;
-    box-shadow: none;
-    color: #000000;
-    background-color: #ffffff;
-    text-align: left;
-    margin-bottom: 10px;
+  width: -webkit-fill-available;
+  border: 1px solid #00000085;
+  outline: none;
+  box-shadow: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .btn-1-c1:hover {
-    width: -webkit-fill-available;
-    border: 1px solid #00000085;
-    outline: none;
-    box-shadow: none;
-    color: #000000;
-    background-color: #ffffff;
-    text-align: left;
-    margin-bottom: 10px;
+  width: -webkit-fill-available;
+  border: 1px solid #00000085;
+  outline: none;
+  box-shadow: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .new-completedtasks {
-    border: 2px solid #0062cc;
-    padding: 15px 15px 15px 15px;
-    border-radius: 15px;
-    outline: none;
+  border: 2px solid #0062cc;
+  padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+  outline: none;
 }

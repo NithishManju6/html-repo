@@ -1,89 +1,127 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Productive page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/sample.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/sample.css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="productive">
-            <div class="container">
-                <a href="https://productivtab.com/" target="_blank" class="logo1">
-                    <img src="assets/images/tick_icon.svg" alt="tick_icon" class="img-fluid image1">
-                    <h2>ProductivTab</h2>
-                </a>
-            </div>
-        </nav>
+      <nav class="productive">
+        <div class="container">
+          <a href="https://productivtab.com/" target="_blank" class="logo1">
+            <img
+              src="assets/images/tick_icon.svg"
+              alt="tick_icon"
+              class="img-fluid image1"
+            />
+            <h2>ProductivTab</h2>
+          </a>
+        </div>
+      </nav>
     </header>
     <section class="section1">
-        <div class="container">
-            <div class="input1">
-                <form action="https://in.search.yahoo.com/search" autocomplete="off" target="_blank"
-                    class="d-md-flex m1">
-                    <input type="text" name="q" id="query_input" placeholder="Search or type a URL">
-                    <button class="icon icon-search" type="submit"><img src="assets/images/search.png" alt="search"
-                            class="imf-fluid image2"></button>
-                </form>
-            </div>
-            <div class="headings">
-                <h3>Tasks</h3>
-                <!-- <button class="btn btn-1 ml-auto" type="submit" id="dots1">
+      <div class="container">
+        <div class="input1">
+          <form
+            action="https://in.search.yahoo.com/search"
+            autocomplete="off"
+            target="_blank"
+            class="d-md-flex m1"
+          >
+            <input
+              type="text"
+              name="q"
+              id="query_input"
+              placeholder="Search or type a URL"
+            />
+            <button class="icon icon-search" type="submit">
+              <img
+                src="assets/images/search.png"
+                alt="search"
+                class="imf-fluid image2"
+              />
+            </button>
+          </form>
+        </div>
+        <div class="headings">
+          <h3>Tasks</h3>
+          <!-- <button class="btn btn-1 ml-auto" type="submit" id="dots1">
                     <img src="assets/images/menu_icon.png" alt="menu_icon" class="img fluid image3" id="dots2">
                 </button> -->
 
-                <button class="btn  d1-btn1" id="dots1" type="button" data-toggle="dropdown" aria-expanded="false">
-                    <img src="assets/images/menu_icon.png" alt="menu_icon" class="img fluid image3">
-                </button>
-                <div class="dropdown-menu m11">
-                    <!-- <input id="dots2" type="checkbox" name="taskname" class="checkboxtask">
+          <button
+            class="btn d1-btn1"
+            id="dots1"
+            type="button"
+            data-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/images/menu_icon.png"
+              alt="menu_icon"
+              class="img fluid image3"
+            />
+          </button>
+          <div class="dropdown-menu m11">
+            <!-- <input id="dots2" type="checkbox" name="taskname" class="checkboxtask">
                     <label for="taskname" class="label1">Hide Completed</label>
                     </input> -->
-                    <div class="d-md-flex hide1">
-                        <img src="assets/images/checked-checkbox.png" alt="checked-checkbox" class="img-fluid image4">
-                        <h4 id="dots2">Hide Completed</h4>
-                        <!-- <h5 id="">Show the Completed tasklist</h5> -->
-                    </div>
-                </div>
-
+            <div class="d-md-flex hide1">
+              <img
+                src="assets/images/checked-checkbox.png"
+                alt="checked-checkbox"
+                class="img-fluid image4"
+              />
+              <h4 id="dots2">Hide Completed</h4>
+              <!-- <h5 id="">Show the Completed tasklist</h5> -->
             </div>
-            <div class="addtask1" id="newtask">
-                <input type="text" id="inputtask1" class="form-control"
-                    placeholder="+ Add Task to 'inbox',Press Enter to save" required>
-                <input type="text" id="i1" class="i2">
-            </div>
-            <div class="grouptasks-t1">
-                <div id="t1-hide" class="d-none">
-                    <h6>New task Added</h6>
-                    <div id="tasks" class="new-tasks"></div>
-                </div>
-                <div id="t2-hide" class="d-none">
-                    <h6>Completed task</h6>
-                    <div id="completedtasks" class="new-completedtasks">
-                    </div>
-                </div>
-
-
-            </div>
+          </div>
         </div>
+        <div class="addtask1" id="newtask">
+          <input
+            type="text"
+            id="inputtask1"
+            class="form-control"
+            placeholder="+ Add Task to 'inbox',Press Enter to save"
+            required
+          />
+          <input type="text" id="i1" class="i2" />
+        </div>
+        <div class="grouptasks-t1">
+          <div id="t1-hide" class="d-none">
+            <h6>New task Added</h6>
+            <div id="tasks" class="new-tasks"></div>
+          </div>
+          <div id="t2-hide" class="d-none">
+            <h6>Completed task</h6>
+            <div id="completedtasks" class="new-completedtasks"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="heading-footer">
-                <a href="#">Terms</a>
-                <a href="#">Privacy</a>
-                <a href="#">Uninstall</a>
-                <a href="#">Contact</a>
-            </div>
+      <div class="container">
+        <div class="heading-footer">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Uninstall</a>
+          <a href="#">Contact</a>
         </div>
+      </div>
     </footer>
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -91,6 +129,5 @@
     <script src="assets/js/sample.js"></script>
     <script src="assets/js/jquery-3.6.0.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
-</body>
-
+  </body>
 </html>
