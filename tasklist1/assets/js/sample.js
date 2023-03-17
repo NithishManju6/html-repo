@@ -6,16 +6,23 @@ $(function () {
     // buttonImageOnly: true,
     // buttonText: "Select date",
     showButtonPanel: true,
-    closeText: "OK",
+    closeText: ["OK"],
     onSelect: function (event) {
       event.preventDefault();
     },
   });
 });
+
+const datetodaypick = new Date();
+let datetoday = datetodaypick.toDateString();
+
+let tomorrowdate = new Date();
+tomorrowdate.setDate(tomorrowdate.getDate() + 1);
+let datetomorrow = tomorrowdate.toDateString();
 /*==================================================================================================== */
 //hiding complete tasklist
 $("#dots2").on("click", function () {
-  $("#completedtasks").toggle();
+  $("#taskshide").toggle();
   // $('#completedtasks').show();
   if ($(this).text("Hide Completed")) {
     $(this).text("Show Completed");
@@ -50,7 +57,9 @@ $(document).on("click", ".ui-datepicker-close", function () {
     // let time = new Date()
     // let localeString = time.toLocaleString('en-US', { weekday: "short", month: "short", day: "numeric" })
     // console.info(localeString)
-    let selectedDate = $("#i1").val();
+    let x = new Date($("#i1").val()).toDateString();
+    let selectedDate = $("#i1").val() ? x : datetoday;
+
     //console.log(selectedDate)
     let number = Math.random() * 10;
     let obj = { task: newtask, date: selectedDate, status: false, id: number };
@@ -63,6 +72,8 @@ $(document).on("click", ".ui-datepicker-close", function () {
       tasklist2.push(obj);
       localStorage.setItem("tasklists", JSON.stringify(tasklist2));
       getlocalData();
+      let value1 = $("#i1").val("");
+      value1();
     }
     // console.log(tasklist1);
     // var d1 = new Date().toDateString('en-us', { weekday: "short", month: "short", day: "numeric" });
@@ -81,23 +92,8 @@ $(document).on("click", ".ui-datepicker-close", function () {
 compltedtask();
 
 const getlocalData = () => {
-  let gettasklist = JSON.parse(localStorage.getItem("tasklists"));
-  // let showData = gettasklist.map((item) => {
-  //     return `<div class="task">
-  //      <h6>${item.date}</h6>
-  //      <div class="t1-task">
-  //      <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask">
-  //      <label for="taskname" class="label1">${item.task}</label>
-  //      </input>
-  //      <button class="delete_button" id=${item.id}>
-  //      <i class="fa fa-trash" aria-hidden="true"></i>
-  //      </button></div>
-  //   </div> `
-  // }).join('');
-  // showsource.innerHTML = showData;
   pendingTask();
   compltedtask();
-
   if (taskDiv.innerHTML == "") {
     document.getElementById("t1-hide").classList.add("d-none");
   } else {
@@ -114,23 +110,103 @@ getlocalData();
 function pendingTask() {
   let gettasklist = JSON.parse(localStorage.getItem("tasklists"));
   let pendingData = gettasklist.filter((value) => value.status == false);
-  // console.log('=====>', completedData);
-  let showData = pendingData
-    .map((item) => {
-      return `<div class="task">
-         
-         <h6>${item.date}</h6>
-         <div class="t1-task">
-         <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask">
-         <label for="taskname" class="label1">${item.task}</label>
-         </input>
-         <button class="delete_button" id=${item.id}>             
-         <i class="fa fa-trash" aria-hidden="true"></i>
-         </button></div>
-      </div> `;
-    })
-    .join("");
-  taskDiv.innerHTML = showData;
+  const sortedByDate = (arr) => {
+    const sorter = (a, b) => {
+      return new Date(a.date) - new Date(b.date);
+    };
+    arr.sort(sorter);
+  };
+
+  const gropBy = function (list, key) {
+    return list.reduce(function (prev, ele) {
+      (prev[ele[key]] = prev[ele[key]] || []).push(ele);
+      return prev;
+    }, {});
+  };
+
+  sortedByDate(pendingData);
+  let gropByDate = gropBy(pendingData, "date");
+  taskDiv.innerHTML = "";
+
+  for (var key in gropByDate) {
+    const h_six = document.createElement("h6");
+    h_six.setAttribute("class", "header_icon");
+    h_six.innerText =
+      key == datetoday ? "Today" : key == datetomorrow ? "Tomorrow" : key;
+
+    // ul element
+    const ul_element = document.createElement("ul");
+    ul_element.setAttribute("class", "list-ul p-0");
+
+    for (var key1 in gropByDate[key]) {
+      // li element
+      const liElement = document.createElement("li");
+      liElement.setAttribute(
+        "class",
+        "d-flex justify-content-between align-items-center"
+      );
+
+      const divElement = document.createElement("div");
+
+      // delete icon element
+      const btn = document.createElement("button");
+      btn.setAttribute("id", `${gropByDate[key][key1].id}`);
+      btn.setAttribute("class", "delete_button");
+      btn.innerHTML = `<i class="fa fa-trash" aria-hidden="true"></i>`;
+
+      // checkbox
+      const checkboxElement = document.createElement("input");
+      checkboxElement.setAttribute("type", "checkbox");
+      checkboxElement.setAttribute("class", "checkboxtask");
+      checkboxElement.setAttribute("id", gropByDate[key][key1].id);
+      const labelForCheckbox = document.createElement("label");
+      labelForCheckbox.setAttribute("class", "m-1");
+      labelForCheckbox.innerText = gropByDate[key][key1].task;
+
+      // li element append to ulelement
+      ul_element.appendChild(liElement);
+      liElement.appendChild(divElement);
+      // liElement.appendChild(divElement2);
+      divElement.appendChild(checkboxElement);
+      divElement.appendChild(labelForCheckbox);
+      liElement.appendChild(btn);
+    }
+
+    taskDiv.appendChild(h_six);
+    taskDiv.appendChild(ul_element);
+  }
+
+  // let showData = pendingData
+  //   .map((item) => {
+  //     return `
+  //     <div class="task">
+  //     <h6>${
+  //       item.date == datetoday
+  //         ? "Today"
+  //         : item.date == datetomorrow
+  //         ? "Tomorrow"
+  //         : item.date
+  //     }</h6>
+  //           <div class="t1-task">
+  //        <input id="${
+  //          item.id
+  //        }" type="checkbox" name="taskname" class="checkboxtask">
+  //        <label for="taskname" class="label1">${item.task}</label>
+  //        </input>
+  //        <button class="delete_button" id=${item.id}>
+  //        <i class="fa fa-trash" aria-hidden="true"></i>
+  //        </button></div>
+  //     </div> `;
+  //   })
+  //   .join("");
+  // taskDiv.document
+  //   .getElementById("inputtask1")
+  //   .addEventListener("keypress", function (event) {
+  //     if (event.keyCode == 15) {
+  //       event.preventDefault();
+  //     }
+  //   });
+  // taskDiv.innerHTML = showData;
 }
 // pendingTask()
 // Completed status
@@ -141,17 +217,14 @@ function compltedtask() {
   // console.log('=====>', completedData);
   let showData1 = completedData
     .map((item) => {
-      return `<div class="task">
-        
-         <h6>${item.date}</h6>
+      return `
          <div class="t1-task">
          <input id="${item.id}" type="checkbox" name="taskname" class="checkboxtask" checked>
          <label for="taskname" class="label1">${item.task}</label>
          </input>
          <button class="delete_button" id=${item.id}>             
          <i class="fa fa-trash" aria-hidden="true"></i>
-         </button></div>
-      </div> `;
+         </button></div> `;
     })
     .join("");
   taskDiv1.innerHTML = showData1;
@@ -179,12 +252,7 @@ $(document).on("click", ".checkboxtask", function () {
       }
     });
     localStorage.setItem("tasklists", JSON.stringify(checklist1));
-    //taskDiv1.innerHTML = showData1;
     getlocalData();
-    // compltedtask();
-    // console.log("tester");
-    // console.log("********=>>>>>>", checklist1)
-    //getlocalData()
   } else {
     let checklist1 = JSON.parse(localStorage.getItem("tasklists"));
     checklist1.filter((item) => {
@@ -193,11 +261,7 @@ $(document).on("click", ".checkboxtask", function () {
       }
     });
     localStorage.setItem("tasklists", JSON.stringify(checklist1));
-    //showsource.innerHTML = showData;
     getlocalData();
-    // compltedtask();
-    // console.log("********=>>>>>> false is working", checklist1)
   }
 });
 /*==================================================================================================== */
-// let compltedtask01 = document.getElementById('completedtasks')

@@ -28,7 +28,7 @@ header {
 }
 
 section {
-  margin: 100px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 
 .m1 {
@@ -81,6 +81,7 @@ section {
   border: none;
   outline: none;
   box-shadow: none;
+  background-color: transparent;
 }
 
 .icon.icon-search:hover,
@@ -198,13 +199,13 @@ section {
 }
 
 .delete_button {
+  padding: 0 0 0 0;
   border: none;
   outline: none;
-  /* box-shadow: 2px 4px 4px rgb(14 0 0 / 38%); */
   box-shadow: none;
   margin-left: auto;
+  background-color: transparent;
 }
-
 .task {
   margin-bottom: 15px;
 }
@@ -260,8 +261,31 @@ section {
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 4px 2px rgb(14 0 0 / 25%);
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.grouptasks-t1::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 10px;
 }
 
+/* Track */
+.grouptasks-t1::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.grouptasks-t1::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.grouptasks-t1::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+}
 .label1 {
   margin-bottom: 0;
   margin-left: 10px;
