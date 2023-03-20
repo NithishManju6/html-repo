@@ -7,12 +7,14 @@ $(function () {
     // buttonText: "Select date",
     showButtonPanel: true,
     closeText: ["OK"],
+    minDate: 0,
     onSelect: function (event) {
       event.preventDefault();
     },
   });
 });
-
+// let number = Math.random() * 10;
+// const obj = { task: newtask, date: selectedDate, status: false, id: number };
 const datetodaypick = new Date();
 let datetoday = datetodaypick.toDateString();
 
@@ -36,60 +38,52 @@ const tasklist1 = [];
 const taskDiv = document.getElementById("tasks");
 const taskDiv1 = document.getElementById("completedtasks");
 
-// if (taskDiv1 == undefined) {
-//     taskDiv1.style.display = "none"
-// }
-// else {
-//     ((!taskDiv1) == undefined)
-//     //taskDiv.style.display = "block"
-// }
+const setObj = (newtask, selectedDate) => {
+  let number = Math.random() * 10;
+  const obj = {
+    task: newtask,
+    date: selectedDate,
+    status: false,
+    id: number,
+  };
+  setStorageData(obj);
+};
 
-//else {
-//     $(this).style.display = $(this)
-// }
+const setStorageData = (obj) => {
+  let tasklist2 = JSON.parse(localStorage.getItem("tasklists"));
+  if (tasklist2 == null) {
+    tasklist1.push(obj);
+    localStorage.setItem("tasklists", JSON.stringify(tasklist1));
+    getlocalData();
+  } else {
+    tasklist2.push(obj);
+    localStorage.setItem("tasklists", JSON.stringify(tasklist2));
+    getlocalData();
+    $("#i1").val("");
+  }
+};
+
+$("#inputtask1").keypress(function (e) {
+  if (e.which == 13) {
+    let newtask = $("#inputtask1").val();
+    if (newtask != "") {
+      let selectedDate = datetoday;
+      setObj(newtask, selectedDate);
+      $("#inputtask1").val("");
+    }
+  }
+});
 
 $(document).on("click", ".ui-datepicker-close", function () {
   let newtask = $("#inputtask1").val();
-  // console.log('=====>', newtask, typeof (newtask));
-  if (newtask == "") {
-    alert("enter the task");
-  } else {
-    // let time = new Date()
-    // let localeString = time.toLocaleString('en-US', { weekday: "short", month: "short", day: "numeric" })
-    // console.info(localeString)
+  if (newtask != "") {
     let x = new Date($("#i1").val()).toDateString();
     let selectedDate = $("#i1").val() ? x : datetoday;
-
-    //console.log(selectedDate)
-    let number = Math.random() * 10;
-    let obj = { task: newtask, date: selectedDate, status: false, id: number };
-    let tasklist2 = JSON.parse(localStorage.getItem("tasklists"));
-    if (tasklist2 == null) {
-      tasklist1.push(obj);
-      localStorage.setItem("tasklists", JSON.stringify(tasklist1));
-      getlocalData();
-    } else {
-      tasklist2.push(obj);
-      localStorage.setItem("tasklists", JSON.stringify(tasklist2));
-      getlocalData();
-      let value1 = $("#i1").val("");
-      value1();
-    }
-    // console.log(tasklist1);
-    // var d1 = new Date().toDateString('en-us', { weekday: "short", month: "short", day: "numeric" });
-    // // console.log("Today", d1)
-    // var d2 = new Date(Date.now() + 1000 * 3600 * 24);
-    // var d21 = d2.toDateString('en-us', { weekday: "short", month: "short", day: "numeric" });
-    // // console.log("Tommorow", d21)
-    // let d3 = new Date();
-    // let d31 = d3.toDateString('en-us', { weekday: "short", month: "short", day: "numeric" })
-    // // console.log("Status Ok", d31)
-    // localStorage.setItem("tasklists", JSON.stringify(tasklist1));
-    // console.log(tasklist1)
+    setObj(newtask, selectedDate);
+    $("#inputtask1").val("");
   }
 });
 /*==================================================================================================== */
-compltedtask();
 
 const getlocalData = () => {
   pendingTask();
@@ -208,13 +202,11 @@ function pendingTask() {
   //   });
   // taskDiv.innerHTML = showData;
 }
-// pendingTask()
-// Completed status
+
 /*==================================================================================================== */
 function compltedtask() {
   let gettasklist = JSON.parse(localStorage.getItem("tasklists"));
   let completedData = gettasklist.filter((value) => value.status == true);
-  // console.log('=====>', completedData);
   let showData1 = completedData
     .map((item) => {
       return `
@@ -229,7 +221,6 @@ function compltedtask() {
     .join("");
   taskDiv1.innerHTML = showData1;
 }
-// compltedtask();
 /*==================================================================================================== */
 
 //deleting the task by clicking img button
@@ -239,7 +230,6 @@ $(document).on("click", ".delete_button", function () {
   getlist1 = getlist1.filter((item) => item.id != $this);
   localStorage.setItem("tasklists", JSON.stringify(getlist1));
   getlocalData();
-  // compltedtask();
 });
 /*==================================================================================================== */
 // //checkbox status true /false
