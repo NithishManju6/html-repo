@@ -1,187 +1,187 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
-        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/poppins/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: 'Poppins';
-    background-color: #E6FFFC;
+  font-family: "Poppins";
+  background-color: #e6fffc;
 }
 
 h1 {
-    color: #24CCD4;
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    line-height: 1.26;
+  color: #24ccd4;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  line-height: 1.26;
 }
 
 h2 {
-    font-size: 40px;
-    line-height: 1.26;
+  font-size: 40px;
+  line-height: 1.26;
 }
 
 h3 {
-    font-size: 32px;
-    line-height: 1.26;
+  font-size: 32px;
+  line-height: 1.26;
 }
 
 h4 {
-    font-size: 24px;
-    line-height: 1.26;
+  font-size: 24px;
+  line-height: 1.26;
 }
 
 h5 {
-    font-size: 20px;
-    line-height: 1.26;
+  font-size: 20px;
+  line-height: 1.26;
 }
 
 h6 {
-    font-size: 14px;
-    line-height: 1.26;
-    letter-spacing: 0.715em;
+  font-size: 14px;
+  line-height: 1.26;
+  letter-spacing: 0.715em;
 }
 
 .brand1 {
-    background-color: #6F5480;
-    height: 40px;
+  background-color: #6f5480;
+  height: 40px;
 }
 
 .bollyshape {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .numbers .h3Numbers {
-    font-size: 14px;
-    color: #FFFFFF;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .numbers {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .numbers .h3Numbers:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.3em;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 .register-btn {
-    background-color: #7A5C8D;
-    color: #FFFFFF;
-    border-radius: 25px;
-    font-size: 14px;
-    padding: 12px 30px 12px 30px;
-    box-shadow: none;
+  background-color: #7a5c8d;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 12px 30px 12px 30px;
+  box-shadow: none;
 }
 
 .l1 a {
-    padding: 0 0 0 0;
-    color: #000000;
-    text-align: center;
-    font-size: 18px;
-    margin: 0 25px 0 25px;
+  padding: 0 0 0 0;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 25px 0 25px;
 }
 
 .l1 a:hover {
-    color: #7A5C8D;
-    text-decoration: underline;
-    text-underline-offset: 0.3em;
-    font-weight: bold;
+  color: #7a5c8d;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  font-weight: bold;
 }
 
 .register-btn:hover {
-    color: #000000;
-    font-weight: bold;
-    box-shadow: none;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: none;
 }
 
 .register-btn:focus {
-    color: #FFFFFF;
-    background-color: #7A5C8D;
-    font-weight: bold;
-    box-shadow: none;
+  color: #ffffff;
+  background-color: #7a5c8d;
+  font-weight: bold;
+  box-shadow: none;
 }
 
 .b1 {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .custom-toggler .tog1 {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122,92,141)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122,92,141)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-    border: 2px solid #7A5C8D;
-    border-radius: 5px;
+  border: 2px solid #7a5c8d;
+  border-radius: 5px;
 }
 
 /* ================================================footer css starts================================================ */
 footer {
-    background-color: #7A5C8D;
-    padding: 50px 0 50px 0;
+  background-color: #7a5c8d;
+  padding: 50px 0 50px 0;
 }
 
 .foot2 {
-    text-align: center;
+  text-align: center;
 }
 
 .foot1 .image1foot1 {
-    display: block;
-    margin: 0 auto 46px auto;
+  display: block;
+  margin: 0 auto 46px auto;
 }
 
 .divfoot2h5 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .foot2 a {
-    color: #FFFFFF;
-    font-size: 16px;
-    padding: 0 20px 0 0;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 20px 0 0;
 }
 
 .phone-call {
-    align-self: start;
-    padding: 0 10px 0 10px;
+  align-self: start;
+  padding: 0 10px 0 10px;
 }
 
 .foot3 {
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
 .foot3 a {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
 
 .foot3 .spanlineP1 {
-    color: #FFFFFF;
-    font-weight: 400;
-    padding: 0 25px 0 25px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 0 25px 0 25px;
 }
 
 .foot4 .i1 {
-    padding: 0 0 0 0;
-    margin: 0 15px 0 15px;
+  padding: 0 0 0 0;
+  margin: 0 15px 0 15px;
 }
 
 .foot4 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* ================================================footer css ends================================================ */
 .header2 {
-    margin-top: 30px;
+  margin-top: 30px;
 }

@@ -1,77 +1,77 @@
 .section1P6 {
-    margin: 100px 0 150px 0;
+  margin: 100px 0 150px 0;
 }
 
 .image1P6 {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .hconnect1 h3 {
-    color: #24CCD4;
-    font-weight: 600;
+  color: #24ccd4;
+  font-weight: 600;
 }
 
 .hconnect1 p {
-    width: 80%;
-    font-size: 14px;
+  width: 80%;
+  font-size: 14px;
 }
 
 .formValidation .has-error .help-block {
-    color: #d06868;
-    font-size: 12px;
-    line-height: 1.1;
-    font-style: italic;
+  color: #d06868;
+  font-size: 12px;
+  line-height: 1.1;
+  font-style: italic;
 }
 
 .form1 {
-    width: 50%;
-    text-align: left;
+  width: 50%;
+  text-align: left;
 }
 
 .mobile_number {
-    width: 59%;
+  width: 59%;
 }
 
 .form-group .form-control {
-    width: 100%;
+  width: 100%;
 }
 
 .email1 {
-    width: 50%;
+  width: 50%;
 }
 
 .nq1 {
-    width: 260px;
-    margin-right: 10px;
+  width: 260px;
+  margin-right: 10px;
 }
 
 .heading1 .p1P7 {
-    font-size: 15px;
-    margin-top: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+  font-size: 15px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .section7P7 {
-    margin: 0 0 50px 0;
+  margin: 0 0 50px 0;
 }
 
 .team0 h3 {
-    font-size: 14px;
-    letter-spacing: 0.715em;
-    color: #454545;
-    text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.715em;
+  color: #454545;
+  text-align: center;
 }
 
 .form-group .purple1 {
-    background-color: #7A5C8D;
-    color: #FFFFFF;
-    border-radius: 25px;
-    padding: 12px 30px 12px 30px;
-    margin-top: 27px;
-    float: right;
+  background-color: #7a5c8d;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 12px 30px 12px 30px;
+  margin-top: 27px;
+  float: right;
 }
