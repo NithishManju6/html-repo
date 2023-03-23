@@ -58,13 +58,9 @@
       <div class="container_div">
         <h3>On This Day in History - <span id="dynamicdate"></span></h3>
         <div class="taskH1" id="history1"></div>
-        <div class="nextandprev">
-          <a href="" target="_self" id="prev1" onclick="apiPrevPage()"
-            >&lt; Previous Day
-          </a>
-          <a href="" target="_self" id="next1" onclick="apiNextPage()">
-            Next Day &gt;
-          </a>
+        <div class="nextandprev" id="np1">
+          <div class="prevbtn" id="prev1">&lt; Previous Day</div>
+          <div class="nextbtn" id="next1">Next Day &gt;</div>
         </div>
         <div class="born1-hoilday1" id="bh1">
           <div class="birthday">
@@ -89,10 +85,10 @@
           </div>
           <div class="f1div1">
             <div class="time1">
-              <h3 id="t1"></h3>
+              <h3 id="time1-id"></h3>
             </div>
             <div class="day1 text-right">
-              <h6 id="d1"></h6>
+              <h6 id="calender-day"></h6>
             </div>
           </div>
         </div>
