@@ -1,0 +1,18 @@
+{
+  "name": "OnThisDayTab",
+  "version": "1",
+  "description": "Add a print button to the browser",
+  "manifest_version": 3,
+  "background": {
+    "servive_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_title": "OnThisDayTab_icon"
+  },
+  "permissions": ["tabs", "storage"],
+
+  "offline_enabled": true
+}
