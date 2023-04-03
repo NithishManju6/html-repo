@@ -1,3 +1,4 @@
+import React from "react";
 import "./Expensive.css";
 function ExpenseDate(props) {
   const month = props.date.toLocaleDateString("en-us", { month: "short" });

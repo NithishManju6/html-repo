@@ -1,0 +1,29 @@
+.section1 {
+  margin: 100px 0 50px 0;
+}
+.formValidation .has-error .help-block {
+  color: #d06868;
+  font-size: 12px;
+  line-height: 1.1;
+  font-style: italic;
+}
+.section1 .h2-s1 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.section1 .register-btn {
+  padding: 12px 30px 12px 30px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #0051ff;
+  font-size: 16px;
+  color: #ffffff;
+}
+.section1 .register-btn:hover {
+  color: #ffffff;
+}
+.formValidation {
+  max-width: 600px;
+  margin: 0 auto;
+}

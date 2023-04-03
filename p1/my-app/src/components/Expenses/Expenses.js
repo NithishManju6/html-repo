@@ -1,3 +1,4 @@
+import React from "react";
 import Expensivediv from "./Expensive";
 import "./Expensive.css";
 const Expenses = () => {

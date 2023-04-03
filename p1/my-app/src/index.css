@@ -5,10 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: #e6fffc;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #24ccd4;
 }
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #24ccd4;
+}
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #24ccd4;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* -----------------------------Fixed Css Ends-------------------------------- */

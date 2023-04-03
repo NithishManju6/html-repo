@@ -1,0 +1,124 @@
+.f1 {
+  background-color: #7a5c8d;
+  padding: 50px 0 50px 0;
+}
+.img1div img {
+  display: block;
+  margin: 0 auto;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin: 90px 0 65px 0;
+}
+.footer1 .h4f11 {
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 0 35px 0 35px;
+}
+.footer1 .h4f11 h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 35px 0 35px;
+}
+.footer1 .h4f1 h5 {
+  padding: 0 0 0 0;
+  margin: 0 35px 0 35px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 65px;
+  align-items: center;
+}
+.footer2 h4 {
+  margin: 0 15px 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 0 0;
+}
+.footer3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+.footer3 img {
+  margin: 0 15px 0 15px;
+}
+.footer4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+  color: #ffffff;
+  align-items: center;
+}
+.footer4 a {
+  margin: 0 15px 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 0 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer4 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* ----------------Small devices (tablets, less than 767px)--------------------*/
+@media only screen and (max-width: 767px) {
+  .footer1 {
+    display: block;
+  }
+  .footer1 .h4f11 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0px 0 0px;
+  }
+  .footer1 .h4f11 h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 15px 0 15px;
+  }
+  .footer1 .h4f1 h5 {
+    padding: 0 0 0 0;
+    margin: 15px 0 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .footer2 {
+    display: block;
+  }
+  .footer2 h4 {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+  }
+  .footer4 {
+    display: block;
+  }
+  .footer4 a {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 15px 0 15px 0;
+  }
+}
+/* ----------------Small devices (tablets, less than 767px) ends----------------*/
+/* ----------------Medium devices (tablets, less than 992px)--------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer4 a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+/* ----------------Medium devices (tablets, less than 992px)ends----------------*/
+/*-----------------------Large devices (desktops, less than 1200px)-------------*/
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/*-------------Large devices (desktops, less than 1200px)-ends--------*/

@@ -1,0 +1,62 @@
+.header-nav .register-btn {
+  background-color: #7a5c8d;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 29px 10px 30px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  line-height: 18.27px;
+  margin-left: 10px;
+  max-width: fit-content;
+}
+.header-nav .register-btn:hover {
+  color: #000000;
+  background-color: #7a5c8d;
+}
+
+.anchor1 a {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  margin: 10px 25px 0 25px;
+  padding: 0 0 0 0;
+}
+/* ----------------Small devices (tablets, less than 767px)--------------------*/
+@media only screen and (max-width: 767px) {
+  .header-nav .register-btn {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  .anchor1 a {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .brandname {
+    max-width: 70%;
+  }
+}
+/* ----------------Small devices (tablets, less than 767px) ends----------------*/
+/* ----------------Medium devices (tablets, less than 992px)--------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-nav .register-btn {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  .anchor1 a {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .brandname {
+    max-width: 70%;
+  }
+}
+/* ----------------Medium devices (tablets, less than 992px)ends----------------*/
+/*-----------------------Large devices (desktops, less than 1200px)-------------*/
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/*-------------Large devices (desktops, less than 1200px)-ends--------*/
