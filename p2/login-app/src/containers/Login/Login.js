@@ -55,7 +55,7 @@ const LoginPage = () => {
     <div>
       <section className="section1">
         <Container>
-          <h2 className="h2-s1"> LoginPage</h2>
+          <h2 className="h2-s1"> Login</h2>
           <form class="formValidation" onSubmit={handleSubmit}>
             <div>
               <div class="form-group form1">
@@ -66,8 +66,7 @@ const LoginPage = () => {
                   type="email"
                   {...register("email", {
                     required: true,
-                    pattern:
-                      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                    pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                   })}
                   value={data.email}
                   onChange={handleChange}

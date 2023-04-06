@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
-import Logo_Img1 from "../../Images/logo.svg";
+// import Logo_Img1 from "../../Images/logo.svg";
+import { Images } from "../../Images";
 import "./Header.css";
 const Header = () => {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/home" className="brandname">
-          <img src={Logo_Img1} alt="logo" className="img-fluid"></img>
+          <img src={Images.being_logo} alt="logo" className="img-fluid"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="header-nav">
